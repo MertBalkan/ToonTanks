@@ -59,6 +59,8 @@ public: \
 
 
 #define ToonTanks_Source_ToonTanks_BasePawn_h_13_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__VisibleAnywhereInt() { return STRUCT_OFFSET(ABasePawn, VisibleAnywhereInt); } \
+	FORCEINLINE static uint32 __PPO__EditAnywhereInt() { return STRUCT_OFFSET(ABasePawn, EditAnywhereInt); } \
 	FORCEINLINE static uint32 __PPO__CapsuleComponent() { return STRUCT_OFFSET(ABasePawn, CapsuleComponent); } \
 	FORCEINLINE static uint32 __PPO__SM_BaseMesh() { return STRUCT_OFFSET(ABasePawn, SM_BaseMesh); } \
 	FORCEINLINE static uint32 __PPO__SM_Turret() { return STRUCT_OFFSET(ABasePawn, SM_Turret); } \

@@ -16,12 +16,6 @@ public:
 	// Sets default values for this pawn's properties
 	ABasePawn();
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-	int32 VisibleAnywhereInt = 20;
-
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	int32 EditAnywhereInt = 20;
-	
 	UPROPERTY(VisibleInstanceOnly)
 	int32 VisibleInstanceOnlyInt = 11;
 
@@ -31,9 +25,9 @@ public:
 	UPROPERTY(EditDefaultsOnly)
 	int32 EditDefaultsOnlyInt = 9;
 
-	UPROPERTY(EditInstanceOnly)
+	UPROPERTY(EditInstanceOnly, meta=(AllowPrivateAccess="true"))
 	int32 EditInstanceOnlyInt = 14;
-	
+
 	UPROPERTY(Category="Deneme", VisibleAnywhere, BlueprintReadWrite)
 	float Health = 100.0f;
 
@@ -41,24 +35,28 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 private:
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category="Deneme", meta=(AllowPrivateAccess="true"))
+	int32 VisibleAnywhereInt = 20;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Deneme", meta=(AllowPrivateAccess="true"))
+	int32 EditAnywhereInt = 20;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Base Pawn Components", meta=(AllowPrivateAccess="true"))
 	class UCapsuleComponent* CapsuleComponent;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Base Pawn Components", meta=(AllowPrivateAccess="true"))
 	class UStaticMeshComponent* SM_BaseMesh;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Base Pawn Components", meta=(AllowPrivateAccess="true"))
 	class UStaticMeshComponent* SM_Turret;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Base Pawn Components", meta=(AllowPrivateAccess="true"))
 	class USceneComponent* BulletSpawnPoint;
-	
 };
