@@ -1643,3 +1643,74 @@ Total execution time: 95.11 seconds
 [2022.03.12-18.59.35:451][508]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
 [2022.03.12-18.59.35:471][508]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
 [2022.03.12-18.59.35:486][508]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2022.03.12-18.59.58:080][624]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.03.12-18.59.58:095][624]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2022.03.12-19.00.04:957][624]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.03.12-19.00.05:012][624]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.03.12-19.00.05:026][624]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.03.12-19.00.08:857][843]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Tank
+[2022.03.12-19.00.09:059][843]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.03.12-19.00.09:173][845]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Tank.BP_Tank
+[2022.03.12-19.00.10:648][909]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tank" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset" SILENT=true
+[2022.03.12-19.00.10:664][909]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/BP_TankD9632F0C46E1F81BCD4AFE8E2B26F9D8.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset'
+[2022.03.12-19.00.10:691][909]AssetCheck: New page: Asset Save: BP_Tank
+[2022.03.12-19.00.10:692][909]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Tank.BP_Tank
+[2022.03.12-19.00.56:035][133]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2022.03.12-19.00.56:040][133]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.038
+[2022.03.12-19.00.56:055][133]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_Tank] ([2] browsable assets)...
+[2022.03.12-19.00.56:126][133]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_Tank.BP_Tank]
+[2022.03.12-19.00.56:158][133]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/Blueprints/BP_Tank.BP_Tank_C]
+[2022.03.12-19.00.56:158][133]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_Tank]
+[2022.03.12-19.00.56:158][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tank" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Autosaves/Game/Blueprints/BP_Tank_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2022.03.12-19.00.56:187][133]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/BP_Tank_Auto2DD69A06D46B9B4A26CA1EEAAF4BFBCD2.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Autosaves/Game/Blueprints/BP_Tank_Auto2.uasset'
+[2022.03.12-19.00.56:234][133]LogFileHelpers: Auto-saving content packages took 0.169
+[2022.03.12-19.03.42:333][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tank" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset" SILENT=true
+[2022.03.12-19.03.42:344][ 53]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/BP_Tank1C3A51F544D336DF42B22B82FF698D5A.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset'
+[2022.03.12-19.03.42:356][ 53]AssetCheck: New page: Asset Save: BP_Tank
+[2022.03.12-19.03.42:356][ 53]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Tank.BP_Tank
+[2022.03.12-19.04.22:247][376]LogEditorTransaction: Undo Modify Component Scale
+[2022.03.12-19.04.25:076][534]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tank" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset" SILENT=true
+[2022.03.12-19.04.25:094][534]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/BP_TankC14D75014E868FB9A35FBC8347B24E7D.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset'
+[2022.03.12-19.04.25:108][534]AssetCheck: New page: Asset Save: BP_Tank
+[2022.03.12-19.04.25:108][534]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Tank.BP_Tank
+[2022.03.12-19.04.31:936][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tank" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset" SILENT=true
+[2022.03.12-19.04.31:941][933]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/BP_TankE6D046C242A005C469FF0C9B744ABA62.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset'
+[2022.03.12-19.04.31:952][933]AssetCheck: New page: Asset Save: BP_Tank
+[2022.03.12-19.04.31:952][933]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Tank.BP_Tank
+[2022.03.12-19.04.36:455][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tank" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset" SILENT=true
+[2022.03.12-19.04.36:471][202]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/BP_Tank9EEC54344C4A3C871A266691BD1BBF99.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset'
+[2022.03.12-19.04.36:481][202]AssetCheck: New page: Asset Save: BP_Tank
+[2022.03.12-19.04.36:481][202]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Tank.BP_Tank
+[2022.03.12-19.04.38:687][333]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tank" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset" SILENT=true
+[2022.03.12-19.04.38:700][333]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/BP_TankF6D8EA5340E87DBBBFE2FAA2B071E452.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset'
+[2022.03.12-19.04.38:711][333]AssetCheck: New page: Asset Save: BP_Tank
+[2022.03.12-19.04.38:711][333]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Tank.BP_Tank
+[2022.03.12-19.04.47:861][881]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2022.03.12-19.04.47:861][881]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.12-19.04.49:744][987]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2022.03.12-19.04.52:634][987]LogSlate: Window 'Delete Assets' being destroyed
+[2022.03.12-19.04.52:815][987]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprints/BP_Tank.BP_Tank
+[2022.03.12-19.04.53:011][987]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2022.03.12-19.04.53:047][987]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2022.03.12-19.04.53:065][987]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2022.03.12-19.04.53:080][987]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.03.12-19.05.11:696][956]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Tank.BP_Tank
+[2022.03.12-19.05.11:961][956]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2022.03.12-19.05.14:811][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tank" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset" SILENT=true
+[2022.03.12-19.05.14:822][120]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/BP_Tank64B7EF08407702F78EC09886A020A44E.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset'
+[2022.03.12-19.05.14:831][120]AssetCheck: New page: Asset Save: BP_Tank
+[2022.03.12-19.05.14:832][120]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Tank.BP_Tank
+[2022.03.12-19.05.31:785][120]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_PawnTurret.BP_PawnTurret
+[2022.03.12-19.05.32:190][120]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2022.03.12-19.05.34:321][238]BlueprintLog: New page: Compile BP_PawnTurret
+[2022.03.12-19.05.34:366][238]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2022.03.12-19.05.34:906][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_PawnTurret" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/BP_PawnTurret.uasset" SILENT=true
+[2022.03.12-19.05.34:918][261]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/BP_PawnTurret8900CB4C4EF696745CBB4892C483BCF5.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/BP_PawnTurret.uasset'
+[2022.03.12-19.05.34:937][261]AssetCheck: New page: Asset Save: BP_PawnTurret
+[2022.03.12-19.05.34:937][261]LogContentValidation: Display: Validating Blueprint /Game/BP_PawnTurret.BP_PawnTurret
+[2022.03.12-19.05.35:879][299]LogSlate: Window 'BP_PawnTurret' being destroyed
+[2022.03.12-19.06.06:356][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_PawnTurret" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/BP_PawnTurret.uasset" SILENT=true
+[2022.03.12-19.06.06:369][408]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/BP_PawnTurretDB82C90749DFDE3F5C5433BA9FB104AC.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/BP_PawnTurret.uasset'
+[2022.03.12-19.06.06:379][408]AssetCheck: New page: Asset Save: BP_PawnTurret
+[2022.03.12-19.06.06:379][408]LogContentValidation: Display: Validating Blueprint /Game/BP_PawnTurret.BP_PawnTurret
