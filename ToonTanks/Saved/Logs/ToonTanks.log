@@ -2992,3 +2992,11 @@ Total execution time: 95.11 seconds
 [2022.03.12-20.13.56:341][431]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
 [2022.03.12-20.13.56:341][431]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
 [2022.03.12-20.14.21:268][667]LogEditorViewport: Clicking on Actor (context menu): BP_PawnTurret_C (BP_PawnTurret2)
+[2022.03.12-20.14.47:618][904]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.03.12-20.14.47:644][904]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.03.12-20.14.47:656][904]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Main6B1E23244213C3EE2D1B2BBE1B621368.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main.umap'
+[2022.03.12-20.14.47:665][904]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2022.03.12-20.14.47:678][904]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Main_BuiltData13C9D1744BDAFB5CCE65ECAEB22C7184.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2022.03.12-20.14.47:689][904]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.12-20.14.47:689][904]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2022.03.12-20.14.47:690][904]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
