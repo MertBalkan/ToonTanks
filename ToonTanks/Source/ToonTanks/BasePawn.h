@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Components/CapsuleComponent.h"
 #include "GameFramework/Pawn.h"
 #include "BasePawn.generated.h"
 
@@ -15,6 +16,18 @@ public:
 	// Sets default values for this pawn's properties
 	ABasePawn();
 
+	UPROPERTY(EditAnywhere)
+	UCapsuleComponent* CapsuleComponent;
+
+	UPROPERTY(EditAnywhere)
+	UStaticMeshComponent* SM_BaseMesh;
+
+	UPROPERTY(EditAnywhere)
+	UStaticMeshComponent* SM_Turret;
+
+	UPROPERTY(EditAnywhere)
+	USceneComponent* BulletSpawnPoint;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -25,5 +38,5 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
+	
 };
