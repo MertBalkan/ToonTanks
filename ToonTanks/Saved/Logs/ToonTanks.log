@@ -1091,3 +1091,258 @@ Total execution time: 95.11 seconds
 [2022.03.12-17.51.35:222][466]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
 [2022.03.12-17.51.35:278][466]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0104 seconds. Added 3823 classes and 930 folders.
 [2022.03.12-17.51.35:429][466]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.03.12-17.53.39:707][271]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.03.12-17.53.40:375][271]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.03.12-17.53.43:918][271]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Main_Auto1B382F78E4FEDA0901B2B37BD75595E03.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto1.umap'
+[2022.03.12-17.53.44:251][271]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 4.549
+[2022.03.12-17.53.44:251][271]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 4.549
+[2022.03.12-18.04.35:369][713]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.03.12-18.04.35:388][713]LogContentBrowser: Creating deferred item: NewFolder
+[2022.03.12-18.04.37:570][833]LogContentBrowser: Attempting asset rename: NewFolder -> Blueprints
+[2022.03.12-18.04.37:570][833]LogContentBrowser: End creating deferred item NewFolder
+[2022.03.12-18.04.41:621][952]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.03.12-18.04.41:757][952]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.03.12-18.04.41:771][952]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.03.12-18.04.44:444][113]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_Tank
+[2022.03.12-18.04.44:691][113]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.03.12-18.04.46:694][213]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_Tank.BP_Tank
+[2022.03.12-18.04.48:323][213]LogBlueprintEditor: Perf: 0.6 total seconds to load all 5 blueprint libraries in project. Avoid references to content in blueprint libraries to shorten this time.
+[2022.03.12-18.04.48:323][213]LogBlueprintEditor: Perf: 0.3 seconds loading: /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureFunctionLibrary
+[2022.03.12-18.04.48:323][213]LogBlueprintEditor: Perf: 0.2 seconds loading: /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros
+[2022.03.12-18.04.55:182][213]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 126 classes and 0 folders.
+[2022.03.12-18.05.11:292][213]LogRenderer: Reallocating scene render targets to support 1136x888 Format 10 NumSamples 1 (Frame:1).
+[2022.03.12-18.05.28:636][307]LogSlate: Took 0.058768 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.03.12-18.05.51:256][528]LogEditorTransaction: Undo Modify Component(s)
+[2022.03.12-18.05.53:195][625]LogSlate: Window 'BP_Tank' being destroyed
+[2022.03.12-18.05.58:230][917]Cmd: DELETE
+[2022.03.12-18.05.58:230][917]Cmd: ACTOR DELETE
+[2022.03.12-18.05.58:232][917]LogEditorActor: Deleted Actor: BP_Tank_C
+[2022.03.12-18.05.58:423][917]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2022.03.12-18.05.58:424][917]LogEditorActor: Deleted 1 Actors (0.193 secs)
+[2022.03.12-18.06.19:283][145]Cmd: MODE GRID=0
+[2022.03.12-18.06.22:885][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tank" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset" SILENT=true
+[2022.03.12-18.06.22:956][346]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/BP_Tank6AE60FEB4A4735508CBC989E02511D6C.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset'
+[2022.03.12-18.06.23:043][346]AssetCheck: New page: Asset Save: BP_Tank
+[2022.03.12-18.06.23:043][346]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Tank.BP_Tank
+[2022.03.12-18.06.49:538][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tank" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset" SILENT=true
+[2022.03.12-18.06.49:545][893]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/BP_Tank79B985B443CCD3151BAD85BC30E57A0F.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset'
+[2022.03.12-18.06.49:562][893]AssetCheck: New page: Asset Save: BP_Tank
+[2022.03.12-18.06.49:562][893]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Tank.BP_Tank
+[2022.03.12-18.06.51:485][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tank" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset" SILENT=true
+[2022.03.12-18.06.51:489][  6]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/BP_TankD8C0CCB34555E35F3EB0ACB04E1F217C.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset'
+[2022.03.12-18.06.51:500][  6]AssetCheck: New page: Asset Save: BP_Tank
+[2022.03.12-18.06.51:501][  6]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Tank.BP_Tank
+[2022.03.12-18.06.58:120][401]LogEditorTransaction: Undo Modify Component(s)
+[2022.03.12-18.06.58:609][423]LogEditorTransaction: Undo Modify Component(s)
+[2022.03.12-18.07.00:145][512]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tank" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset" SILENT=true
+[2022.03.12-18.07.00:151][512]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/BP_TankCBE99AE44C400D5F5AE91CB2F1E8AD77.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset'
+[2022.03.12-18.07.00:165][512]AssetCheck: New page: Asset Save: BP_Tank
+[2022.03.12-18.07.00:165][512]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Tank.BP_Tank
+[2022.03.12-18.07.05:333][818]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tank" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset" SILENT=true
+[2022.03.12-18.07.05:340][818]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/BP_TankC1589B0C421A168664260B8F3C42DA4D.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset'
+[2022.03.12-18.07.05:353][818]AssetCheck: New page: Asset Save: BP_Tank
+[2022.03.12-18.07.05:354][818]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Tank.BP_Tank
+[2022.03.12-18.07.05:849][848]BlueprintLog: New page: Compile BP_Tank
+[2022.03.12-18.07.06:054][848]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2022.03.12-18.07.11:373][153]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.12-18.07.11:431][153]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.12-18.07.11:431][153]PIE: New page: PIE session: Main (Mar 13, 2022, 12:07:11 AM)
+[2022.03.12-18.07.11:443][153]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.03.12-18.07.11:458][153]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014959s)
+[2022.03.12-18.07.11:459][153]LogAIModule: Creating AISystem for world Main
+[2022.03.12-18.07.11:459][153]LogPlayLevel: PIE: World Init took: (0.001313s)
+[2022.03.12-18.07.11:459][153]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.016441s)
+[2022.03.12-18.07.11:483][153]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2022.03.12-18.07.11:485][153]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.03.12-18.07.11:485][153]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.12-18.07.11:485][153]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.12-18.07.11:485][153]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.12-18.07.11:485][153]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.12-18.07.11:485][153]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.12-18.07.11:485][153]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.12-18.07.11:485][153]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.12-18.07.11:485][153]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.12-18.07.11:486][153]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.12-18.07.11:486][153]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.12-18.07.11:486][153]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.12-18.07.11:486][153]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.12-18.07.11:532][153]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.12-18.07.11:532][153]LogAudioMixer: Display: 1: FrontRight
+[2022.03.12-18.07.11:541][153]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.12-18.07.11:541][153]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.12-18.07.11:541][153]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.12-18.07.11:541][153]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.12-18.07.11:541][153]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.12-18.07.11:541][153]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.12-18.07.11:541][153]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.12-18.07.11:542][153]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.12-18.07.11:542][153]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.12-18.07.11:542][153]LogInit: FAudioDevice initialized.
+[2022.03.12-18.07.11:542][153]LogAudio: Display: Audio Device (ID: 3) registered with world 'Main'.
+[2022.03.12-18.07.11:555][153]LogLoad: Game class is 'GameModeBase'
+[2022.03.12-18.07.11:557][153]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.03.12-21.07.11
+[2022.03.12-18.07.11:557][153]LogWorld: Bringing up level for play took: 0.000873
+[2022.03.12-18.07.11:558][153]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2022.03.12-18.07.11:620][153]PIE: Server logged in
+[2022.03.12-18.07.11:621][153]PIE: Play in editor total start time 0.244 seconds.
+[2022.03.12-18.07.16:333][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.12-18.07.16:333][432]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2022.03.12-18.07.16:333][432]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.03.12-18.07.16:333][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.12-18.07.16:346][432]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.12-18.07.16:358][432]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.12-18.07.16:380][432]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.12-18.07.16:380][432]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.12-18.07.16:380][432]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.12-18.07.16:382][432]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.12-18.07.16:385][432]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2022.03.12-18.07.16:410][433]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2022.03.12-18.07.17:414][493]Cmd: DELETE
+[2022.03.12-18.07.17:415][493]Cmd: ACTOR DELETE
+[2022.03.12-18.07.17:416][493]LogEditorActor: Deleted Actor: BP_Tank_C
+[2022.03.12-18.07.17:439][493]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2022.03.12-18.07.17:439][493]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2022.03.12-18.07.18:271][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.03.12-18.07.18:294][540]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2022.03.12-18.07.18:302][540]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Main0F4F584A46716D676B0A26AC5DB536ED.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main.umap'
+[2022.03.12-18.07.18:312][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2022.03.12-18.07.18:401][540]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Main_BuiltData4B830D074BE1722A48629CB40076F1AA.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2022.03.12-18.07.18:412][540]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.12-18.07.18:412][540]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2022.03.12-18.07.18:412][540]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2022.03.12-18.11.17:469][768]Candidate modules for hot reload:
+[2022.03.12-18.11.17:469][768]  ToonTanks
+[2022.03.12-18.11.17:469][768]Launching UnrealBuildTool... [F:/EpicOyunlar/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,0611 ToonTanksEditor Win64 Development -Project="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/ToonTanks.uproject" "D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2022.03.12-18.11.17:877][768]Warning: Starting HotReload took  0.4s.
+[2022.03.12-18.12.05:304][163]CompilerResultsLog: New page: Compilation - Mar 13, 2022, 12:12:05 AM
+[2022.03.12-18.12.05:304][163]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitRepos\UE4Repos\ToonTanks).
+[2022.03.12-18.12.05:304][163]CompilerResultsLog: Creating makefile for ToonTanksEditor (game project files are newer)
+[2022.03.12-18.12.05:304][163]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2022.03.12-18.12.05:304][163]CompilerResultsLog:   Running UnrealHeaderTool "D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\ToonTanks.uproject" "D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\mert_\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.03.12-18.12.05:304][163]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.03.12-18.12.05:304][163]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 28.8827865 seconds
+[2022.03.12-18.12.05:304][163]CompilerResultsLog: Building ToonTanksEditor...
+[2022.03.12-18.12.05:304][163]CompilerResultsLog: Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.12-18.12.05:304][163]CompilerResultsLog: Building 6 actions with 12 processes...
+[2022.03.12-18.12.05:304][163]CompilerResultsLog:   [1/6] ToonTanks.init.gen.cpp
+[2022.03.12-18.12.05:304][163]CompilerResultsLog:   [2/6] BasePawn.cpp
+[2022.03.12-18.12.05:304][163]CompilerResultsLog:   [3/6] BasePawn.gen.cpp
+[2022.03.12-18.12.05:304][163]CompilerResultsLog:   [4/6] UE4Editor-ToonTanks-0611.lib
+[2022.03.12-18.12.05:304][163]CompilerResultsLog:      D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-0611.lib kitapl??? ve D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-0611.exp nesnesi olu?turuluyor
+[2022.03.12-18.12.05:304][163]CompilerResultsLog:   [5/6] UE4Editor-ToonTanks-0611.dll
+[2022.03.12-18.12.05:304][163]CompilerResultsLog:      D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-0611.suppressed.lib kitapl??? ve D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-0611.suppressed.exp nesnesi olu?turuluyor
+[2022.03.12-18.12.05:304][163]CompilerResultsLog:   [6/6] ToonTanksEditor.target
+[2022.03.12-18.12.05:304][163]CompilerResultsLog: Total time in Parallel executor: 9.47 seconds
+[2022.03.12-18.12.05:304][163]CompilerResultsLog: Total execution time: 45.81 seconds
+[2022.03.12-18.12.05:304][163]LogMainFrame: MainFrame: Module compiling took 47.839 seconds
+[2022.03.12-18.12.05:359][163]LogClass: Could not find existing class BasePawn in package /Script/ToonTanks for HotReload, assuming new class
+[2022.03.12-18.12.05:365][163]LogHotReload: Re-instancing BasePawn after hot-reload.
+[2022.03.12-18.12.05:411][163]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ToonTanks' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2022.03.12-18.12.05:416][163]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.03.12-18.12.05:433][163]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0112 seconds. Added 3823 classes and 930 folders.
+[2022.03.12-18.12.05:433][163]Display: HotReload took 48.0s.
+[2022.03.12-18.12.15:083][318]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.03.12-18.12.15:085][318]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2022.03.12-18.12.21:974][318]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.03.12-18.12.21:980][318]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.03.12-18.12.21:992][318]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.03.12-18.12.27:062][623]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_MyTank
+[2022.03.12-18.12.27:067][623]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.03.12-18.12.27:354][640]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_MyTank.BP_MyTank
+[2022.03.12-18.12.28:891][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyTank" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_MyTank.uasset" SILENT=true
+[2022.03.12-18.12.28:895][704]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/BP_MyTankD2B9C53B48D12B8D39CF97BA7B49C570.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_MyTank.uasset'
+[2022.03.12-18.12.28:916][704]AssetCheck: New page: Asset Save: BP_MyTank
+[2022.03.12-18.12.28:916][704]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_MyTank.BP_MyTank
+[2022.03.12-18.12.30:156][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyTank" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_MyTank.uasset" SILENT=true
+[2022.03.12-18.12.30:159][778]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/BP_MyTank2E2E413A487A50CC8D4C0697CCAA12B4.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_MyTank.uasset'
+[2022.03.12-18.12.30:174][778]AssetCheck: New page: Asset Save: BP_MyTank
+[2022.03.12-18.12.30:174][778]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_MyTank.BP_MyTank
+[2022.03.12-18.12.41:250][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyTank" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_MyTank.uasset" SILENT=true
+[2022.03.12-18.12.41:254][ 74]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/BP_MyTank089D93EC4C23E0CF5BF29B82ADD80C67.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_MyTank.uasset'
+[2022.03.12-18.12.41:267][ 74]AssetCheck: New page: Asset Save: BP_MyTank
+[2022.03.12-18.12.41:267][ 74]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_MyTank.BP_MyTank
+[2022.03.12-18.12.45:241][305]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.03.12-18.12.45:241][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.12-18.12.47:440][418]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_MyTank.BP_MyTank
+[2022.03.12-18.12.49:015][491]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.03.12-18.12.49:015][491]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.12-18.12.49:062][491]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_MyTank.BP_MyTank
+[2022.03.12-18.13.38:637][941]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.03.12-18.13.38:638][941]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.12-18.13.40:117][ 26]Candidate modules for hot reload:
+[2022.03.12-18.13.40:117][ 26]  ToonTanks
+[2022.03.12-18.13.40:117][ 26]Launching UnrealBuildTool... [F:/EpicOyunlar/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,9824 ToonTanksEditor Win64 Development -Project="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/ToonTanks.uproject" "D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2022.03.12-18.13.40:119][ 26]Warning: Starting HotReload took  0.0s.
+[2022.03.12-18.13.50:961][672]CompilerResultsLog: New page: Compilation - Mar 13, 2022, 12:13:50 AM
+[2022.03.12-18.13.50:961][672]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitRepos\UE4Repos\ToonTanks).
+[2022.03.12-18.13.50:961][672]CompilerResultsLog: Building ToonTanksEditor...
+[2022.03.12-18.13.50:961][672]CompilerResultsLog: Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.12-18.13.50:961][672]CompilerResultsLog: Building 4 actions with 12 processes...
+[2022.03.12-18.13.50:961][672]CompilerResultsLog:   [1/4] BasePawn.cpp
+[2022.03.12-18.13.50:961][672]CompilerResultsLog:   [2/4] UE4Editor-ToonTanks-9824.lib
+[2022.03.12-18.13.50:961][672]CompilerResultsLog:      D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-9824.lib kitapl??? ve D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-9824.exp nesnesi olu?turuluyor
+[2022.03.12-18.13.50:961][672]CompilerResultsLog:   [3/4] UE4Editor-ToonTanks-9824.dll
+[2022.03.12-18.13.50:961][672]CompilerResultsLog:      D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-9824.suppressed.lib kitapl??? ve D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-9824.suppressed.exp nesnesi olu?turuluyor
+[2022.03.12-18.13.50:961][672]CompilerResultsLog:   [4/4] ToonTanksEditor.target
+[2022.03.12-18.13.50:961][672]CompilerResultsLog: Total time in Parallel executor: 7.85 seconds
+[2022.03.12-18.13.50:961][672]CompilerResultsLog: Total execution time: 10.60 seconds
+[2022.03.12-18.13.50:961][672]LogMainFrame: MainFrame: Module compiling took 10.848 seconds
+[2022.03.12-18.13.50:989][672]LogHotReload: Re-instancing BasePawn after hot-reload.
+[2022.03.12-18.13.51:016][672]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ToonTanks' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2022.03.12-18.13.51:021][672]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.03.12-18.13.52:154][672]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0087 seconds. Added 3823 classes and 930 folders.
+[2022.03.12-18.13.52:154][672]Display: HotReload took 12.0s.
+[2022.03.12-18.13.54:617][804]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_MyTank.BP_MyTank
+[2022.03.12-18.14.00:659][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyTank" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_MyTank.uasset" SILENT=true
+[2022.03.12-18.14.00:663][128]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/BP_MyTankB2DDF9EC4062908A7D1F86B0FD45F082.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_MyTank.uasset'
+[2022.03.12-18.14.00:678][128]AssetCheck: New page: Asset Save: BP_MyTank
+[2022.03.12-18.14.00:678][128]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_MyTank.BP_MyTank
+[2022.03.12-18.14.57:950][822]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.03.12-18.14.57:950][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.12-18.14.59:323][894]Candidate modules for hot reload:
+[2022.03.12-18.14.59:323][894]  ToonTanks
+[2022.03.12-18.14.59:323][894]Launching UnrealBuildTool... [F:/EpicOyunlar/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,0962 ToonTanksEditor Win64 Development -Project="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/ToonTanks.uproject" "D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2022.03.12-18.14.59:325][894]Warning: Starting HotReload took  0.0s.
+[2022.03.12-18.15.03:259][  8]CompilerResultsLog: New page: Compilation - Mar 13, 2022, 12:15:03 AM
+[2022.03.12-18.15.03:259][  8]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitRepos\UE4Repos\ToonTanks).
+[2022.03.12-18.15.03:259][  8]CompilerResultsLog: Building ToonTanksEditor...
+[2022.03.12-18.15.03:259][  8]CompilerResultsLog: Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.12-18.15.03:259][  8]CompilerResultsLog: Building 4 actions with 12 processes...
+[2022.03.12-18.15.03:259][  8]CompilerResultsLog:   [1/4] BasePawn.cpp
+[2022.03.12-18.15.03:259][  8]CompilerResultsLog:   [2/4] UE4Editor-ToonTanks-0962.lib
+[2022.03.12-18.15.03:259][  8]CompilerResultsLog:      D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-0962.lib kitapl??? ve D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-0962.exp nesnesi olu?turuluyor
+[2022.03.12-18.15.03:259][  8]CompilerResultsLog:   [3/4] UE4Editor-ToonTanks-0962.dll
+[2022.03.12-18.15.03:259][  8]CompilerResultsLog:      D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-0962.suppressed.lib kitapl??? ve D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-0962.suppressed.exp nesnesi olu?turuluyor
+[2022.03.12-18.15.03:259][  8]CompilerResultsLog:   [4/4] ToonTanksEditor.target
+[2022.03.12-18.15.03:259][  8]CompilerResultsLog: Total time in Parallel executor: 2.84 seconds
+[2022.03.12-18.15.03:259][  8]CompilerResultsLog: Total execution time: 3.67 seconds
+[2022.03.12-18.15.03:259][  8]LogMainFrame: MainFrame: Module compiling took 3.939 seconds
+[2022.03.12-18.15.03:378][  8]LogHotReload: Re-instancing BasePawn after hot-reload.
+[2022.03.12-18.15.03:428][  8]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ToonTanks' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2022.03.12-18.15.03:439][  8]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.03.12-18.15.03:664][  8]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0159 seconds. Added 3823 classes and 930 folders.
+[2022.03.12-18.15.03:664][  8]Display: HotReload took  4.3s.
+[2022.03.12-18.15.06:027][ 51]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_MyTank.BP_MyTank
+[2022.03.12-18.15.30:498][  6]Candidate modules for hot reload:
+[2022.03.12-18.15.30:499][  6]  ToonTanks
+[2022.03.12-18.15.30:499][  6]Launching UnrealBuildTool... [F:/EpicOyunlar/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,2172 ToonTanksEditor Win64 Development -Project="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/ToonTanks.uproject" "D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2022.03.12-18.15.30:500][  6]Warning: Starting HotReload took  0.0s.
+[2022.03.12-18.15.36:969][ 45]CompilerResultsLog: New page: Compilation - Mar 13, 2022, 12:15:36 AM
+[2022.03.12-18.15.36:969][ 45]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitRepos\UE4Repos\ToonTanks).
+[2022.03.12-18.15.36:969][ 45]CompilerResultsLog: Building ToonTanksEditor...
+[2022.03.12-18.15.36:969][ 45]CompilerResultsLog: Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.12-18.15.36:969][ 45]CompilerResultsLog: Building 4 actions with 12 processes...
+[2022.03.12-18.15.36:969][ 45]CompilerResultsLog:   [1/4] BasePawn.cpp
+[2022.03.12-18.15.36:969][ 45]CompilerResultsLog:   [2/4] UE4Editor-ToonTanks-2172.lib
+[2022.03.12-18.15.36:969][ 45]CompilerResultsLog:      D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2172.lib kitapl??? ve D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2172.exp nesnesi olu?turuluyor
+[2022.03.12-18.15.36:969][ 45]CompilerResultsLog:   [3/4] UE4Editor-ToonTanks-2172.dll
+[2022.03.12-18.15.36:969][ 45]CompilerResultsLog:      D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2172.suppressed.lib kitapl??? ve D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2172.suppressed.exp nesnesi olu?turuluyor
+[2022.03.12-18.15.36:969][ 45]CompilerResultsLog:   [4/4] ToonTanksEditor.target
+[2022.03.12-18.15.36:969][ 45]CompilerResultsLog: Total time in Parallel executor: 2.28 seconds
+[2022.03.12-18.15.36:969][ 45]CompilerResultsLog: Total execution time: 6.22 seconds
+[2022.03.12-18.15.36:970][ 45]LogMainFrame: MainFrame: Module compiling took 6.475 seconds
+[2022.03.12-18.15.37:009][ 45]LogHotReload: Re-instancing BasePawn after hot-reload.
+[2022.03.12-18.15.37:079][ 45]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ToonTanks' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2022.03.12-18.15.37:088][ 45]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.03.12-18.15.37:309][ 45]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0090 seconds. Added 3823 classes and 930 folders.
+[2022.03.12-18.15.37:309][ 45]Display: HotReload took  6.8s.
