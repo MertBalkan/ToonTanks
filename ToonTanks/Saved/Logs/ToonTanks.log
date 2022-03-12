@@ -3000,3 +3000,65 @@ Total execution time: 95.11 seconds
 [2022.03.12-20.14.47:689][904]AssetCheck: New page: Asset Save: multiple assets
 [2022.03.12-20.14.47:689][904]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
 [2022.03.12-20.14.47:690][904]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2022.03.12-20.16.34:804][313]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.03.12-20.16.35:856][313]LogSlate: Window 'Save Content' being destroyed
+[2022.03.12-20.16.35:910][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PawnTurret" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_PawnTurret.uasset" SILENT=true
+[2022.03.12-20.16.35:918][313]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/BP_PawnTurretB8DE38B04F34189AFF95CFAE05B7FA01.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_PawnTurret.uasset'
+[2022.03.12-20.16.36:253][313]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.03.12-20.16.36:253][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.12-20.16.36:922][313]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.03.12-20.16.36:922][313]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2022.03.12-20.16.36:922][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.12-20.16.37:146][313]LogSlate: Window 'ToonTanks - Unreal Editor' being destroyed
+[2022.03.12-20.16.38:056][313]AssetCheck: New page: Asset Save: BP_PawnTurret
+[2022.03.12-20.16.38:057][313]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_PawnTurret.BP_PawnTurret
+[2022.03.12-20.16.38:074][314]Cmd: QUIT_EDITOR
+[2022.03.12-20.16.38:098][314]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.03.12-20.16.38:277][314]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.03.12-20.16.39:426][314]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.03.12-20.16.39:426][314]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.03.12-20.16.39:426][314]LogAudio: Display: Audio Device unregistered from world 'Main'.
+[2022.03.12-20.16.39:426][314]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.12-20.16.39:431][314]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.12-20.16.39:478][314]LogAudio: Display: Audio Device Manager Shutdown
+[2022.03.12-20.16.39:487][314]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.03.12-20.16.39:576][314]LogExit: Preparing to exit.
+[2022.03.12-20.16.40:930][314]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2022.03.12-20.16.43:658][314]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2022.03.12-20.16.43:659][314]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2022.03.12-20.16.43:660][314]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.12-20.16.43:660][314]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.12-20.16.43:660][314]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.12-20.16.43:660][314]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.12-20.16.43:660][314]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.12-20.16.43:660][314]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.12-20.16.43:660][314]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.12-20.16.43:660][314]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.03.12-20.16.43:660][314]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2022.03.12-20.16.43:661][314]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.12-20.16.43:661][314]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.12-20.16.43:661][314]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.12-20.16.43:661][314]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.12-20.16.43:661][314]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.12-20.16.43:661][314]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.12-20.16.43:661][314]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.12-20.16.43:661][314]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.03.12-20.16.43:661][314]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.12-20.16.43:661][314]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.12-20.16.43:661][314]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.12-20.16.43:661][314]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.12-20.16.43:661][314]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.12-20.16.43:661][314]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.12-20.16.43:661][314]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2022.03.12-20.16.43:661][314]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.03.12-20.16.45:254][314]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.03.12-20.16.45:318][314]LogExit: Editor shut down
+[2022.03.12-20.16.45:332][314]LogExit: Transaction tracking system shut down
+[2022.03.12-20.16.45:483][314]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.03.12-20.16.53:219][314]LogExit: Object subsystem successfully closed.
+[2022.03.12-20.16.53:276][314]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.03.12-20.16.53:276][314]LogShaderCompilers: Display: Total job queries 32, among them cache hits 0 (0.00%)
+[2022.03.12-20.16.53:277][314]LogShaderCompilers: Display: Tracking 32 distinct input hashes that result in 25 distinct outputs (78.12%)
+[2022.03.12-20.16.53:277][314]LogShaderCompilers: Display: RAM used: 0.13 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.02%
+[2022.03.12-20.16.53:277][314]LogShaderCompilers: Display: ================================================
+[2022.03.12-20.16.53:626][314]LogShaderCompilers: Display: Shaders left to compile 0
