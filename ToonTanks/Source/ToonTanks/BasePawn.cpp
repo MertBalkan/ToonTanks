@@ -16,8 +16,6 @@ ABasePawn::ABasePawn()
 	
 	RootComponent = CapsuleComponent;
 
-	
-
 }
 
 // Called when the game starts or when spawned

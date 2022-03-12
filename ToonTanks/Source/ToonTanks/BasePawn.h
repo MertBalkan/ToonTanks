@@ -16,18 +16,6 @@ public:
 	// Sets default values for this pawn's properties
 	ABasePawn();
 
-	UPROPERTY(EditAnywhere)
-	UCapsuleComponent* CapsuleComponent;
-
-	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* SM_BaseMesh;
-
-	UPROPERTY(EditAnywhere)
-	UStaticMeshComponent* SM_Turret;
-
-	UPROPERTY(EditAnywhere)
-	USceneComponent* BulletSpawnPoint;
-
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -38,5 +26,18 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+private:
+
+	UPROPERTY(EditAnywhere)
+	class UCapsuleComponent* CapsuleComponent;
+
+	UPROPERTY(EditAnywhere)
+	class UStaticMeshComponent* SM_BaseMesh;
+
+	UPROPERTY(EditAnywhere)
+	class UStaticMeshComponent* SM_Turret;
+
+	UPROPERTY(EditAnywhere)
+	class USceneComponent* BulletSpawnPoint;
 	
 };

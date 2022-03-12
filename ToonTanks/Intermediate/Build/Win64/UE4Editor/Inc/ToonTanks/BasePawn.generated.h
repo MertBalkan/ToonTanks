@@ -58,7 +58,13 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABasePawn)
 
 
-#define ToonTanks_Source_ToonTanks_BasePawn_h_13_PRIVATE_PROPERTY_OFFSET
+#define ToonTanks_Source_ToonTanks_BasePawn_h_13_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__CapsuleComponent() { return STRUCT_OFFSET(ABasePawn, CapsuleComponent); } \
+	FORCEINLINE static uint32 __PPO__SM_BaseMesh() { return STRUCT_OFFSET(ABasePawn, SM_BaseMesh); } \
+	FORCEINLINE static uint32 __PPO__SM_Turret() { return STRUCT_OFFSET(ABasePawn, SM_Turret); } \
+	FORCEINLINE static uint32 __PPO__BulletSpawnPoint() { return STRUCT_OFFSET(ABasePawn, BulletSpawnPoint); }
+
+
 #define ToonTanks_Source_ToonTanks_BasePawn_h_10_PROLOG
 #define ToonTanks_Source_ToonTanks_BasePawn_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

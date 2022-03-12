@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ToonTanks.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C125A79D-8F14-4B79-82E8-93A93D8961ED}</UniqueIdentifier>
+      <UniqueIdentifier>{11161A09-47DF-43A1-A2DF-886C5036C81F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ToonTanks.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{90C6E772-CA78-496D-A78F-F2571924904E}</UniqueIdentifier>
+      <UniqueIdentifier>{B1DD1106-2097-4331-9AA4-A126EF7FCC51}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ToonTanks">
-      <UniqueIdentifier>{3FDBD2EF-2F66-433A-AED6-98D7A2646FF6}</UniqueIdentifier>
+      <UniqueIdentifier>{CA9B6DB1-A97B-423D-BB8D-5B1882644649}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ToonTanks\BasePawn.cpp">
       <Filter>Source\ToonTanks</Filter>
