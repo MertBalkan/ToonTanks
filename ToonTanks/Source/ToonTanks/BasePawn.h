@@ -16,17 +16,26 @@ public:
 	// Sets default values for this pawn's properties
 	ABasePawn();
 
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	int32 VisibleAnywhereInt = 20;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	int32 EditAnywhereInt = 20;
 	
 	UPROPERTY(VisibleInstanceOnly)
 	int32 VisibleInstanceOnlyInt = 11;
 
-	UPROPERTY(Category="Deneme", VisibleAnywhere)
-	int32 Score = 5;
+	UPROPERTY(VisibleDefaultsOnly)
+	int32 VisibleDefaultsOnlyInt = 5;
+
+	UPROPERTY(EditDefaultsOnly)
+	int32 EditDefaultsOnlyInt = 9;
+
+	UPROPERTY(EditInstanceOnly)
+	int32 EditInstanceOnlyInt = 14;
+	
+	UPROPERTY(Category="Deneme", VisibleAnywhere, BlueprintReadWrite)
+	float Health = 100.0f;
 
 protected:
 	// Called when the game starts or when spawned
