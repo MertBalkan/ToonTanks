@@ -900,3 +900,194 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.03.12-17.43.37:740][  0]LogRenderer: Reallocating scene render targets to support 756x412 Format 10 NumSamples 1 (Frame:1).
 [2022.03.12-17.43.37:740][  0]LogSlate: Took 0.000343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2022.03.12-17.43.41:383][ 41]LogRenderer: Reallocating scene render targets to support 1136x660 Format 10 NumSamples 1 (Frame:29).
+[2022.03.12-17.45.03:269][678]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.03.12-17.45.03:297][678]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.03.12-17.45.03:387][678]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.03.12-17.46.20:144][217]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.03.12-17.46.22:249][317]LogTexture: Display: Building textures: T_ColourGrid (OODLE_AutoDXT, 256X256)
+[2022.03.12-17.46.22:250][317]LogMaterial: Display: Missing cached shadermap for M_TextureBase in PCD3D_SM5, Default, SM5 (DDC key hash: 64888859394F63B6D63A5F8D5A4CEB368D27D578), compiling. 
+[2022.03.12-17.46.22:283][317]LogShaderCompilers: Display: Submitted 16 shader compile jobs with 'Low' priority
+[2022.03.12-17.46.22:284][317]LogMaterial: Display: Missing cached shadermap for M_EmissiveBase in PCD3D_SM5, Default, SM5 (DDC key hash: E321D3E1B0B74E8D58935B927D305799C4FB9A9A), compiling. 
+[2022.03.12-17.46.22:296][317]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 16
+[2022.03.12-17.46.22:296][317]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 13
+[2022.03.12-17.46.22:296][317]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 10
+[2022.03.12-17.46.22:296][317]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 7
+[2022.03.12-17.46.22:296][317]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2022.03.12-17.46.22:296][317]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2022.03.12-17.46.22:296][317]LogShaderCompilers: Display: Started 16 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-17.46.22:296][317]LogShaderCompilers: Display: Submitted 16 shader compile jobs with 'Low' priority
+[2022.03.12-17.46.22:297][317]LogStaticMesh: Building static mesh SM_TankBase...
+[2022.03.12-17.46.22:336][317]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 16
+[2022.03.12-17.46.22:336][317]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 13
+[2022.03.12-17.46.22:336][317]LogShaderCompilers: Display: Started 6 'Local' shader compile jobs with 'Low' priority
+[2022.03.12-17.46.22:707][317]LogStaticMesh: Built static mesh [0.39s] /Game/Assets/Meshes/SM_TankBase.SM_TankBase
+[2022.03.12-17.46.23:033][317]LogActorFactory: Actor Factory created SM_TankBase
+[2022.03.12-17.46.23:100][317]LogActorFactory: Actor Factory created SM_TankBase
+[2022.03.12-17.46.23:696][332]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2022.03.12-17.46.23:696][332]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.03.12-17.46.24:111][351]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2022.03.12-17.46.24:111][351]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.03.12-17.46.24:245][357]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2022.03.12-17.46.24:245][357]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'ForceLocal' priority
+[2022.03.12-17.46.24:802][382]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 7
+[2022.03.12-17.46.24:802][382]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.03.12-17.46.24:871][385]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2022.03.12-17.46.24:871][385]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.03.12-17.46.25:037][393]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 5
+[2022.03.12-17.46.25:037][393]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.03.12-17.46.25:147][398]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2022.03.12-17.46.25:147][398]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.03.12-17.46.25:296][405]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 3
+[2022.03.12-17.46.25:296][405]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.03.12-17.46.25:480][413]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2022.03.12-17.46.25:480][413]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.03.12-17.46.25:612][418]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 1
+[2022.03.12-17.46.25:612][418]LogShaderCompilers: Display: Started 1 'Local' shader compile jobs with 'Normal' priority
+[2022.03.12-17.46.28:127][557]Cmd: DELETE
+[2022.03.12-17.46.28:143][557]Cmd: ACTOR DELETE
+[2022.03.12-17.46.28:826][557]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.12-17.46.28:832][557]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.03.12-17.46.28:833][557]LogEditorActor: Deleted 1 Actors (0.205 secs)
+[2022.03.12-17.46.53:159][173]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2022.03.12-17.48.33:961][745]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.12-17.48.33:968][745]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.12-17.48.33:968][745]PIE: New page: PIE session: Main (Mar 12, 2022, 11:48:33 PM)
+[2022.03.12-17.48.33:969][745]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.03.12-17.48.33:970][745]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.03.12-17.48.33:970][745]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.03.12-17.48.33:973][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002241s)
+[2022.03.12-17.48.33:973][745]LogAIModule: Creating AISystem for world Main
+[2022.03.12-17.48.33:974][745]LogPlayLevel: PIE: World Init took: (0.000939s)
+[2022.03.12-17.48.33:974][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003334s)
+[2022.03.12-17.48.33:980][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.03.12-17.48.33:980][745]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.03.12-17.48.33:980][745]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.12-17.48.33:980][745]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.12-17.48.33:980][745]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.12-17.48.33:980][745]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.12-17.48.33:980][745]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.12-17.48.33:980][745]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.12-17.48.33:980][745]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.12-17.48.33:981][745]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.12-17.48.33:981][745]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.12-17.48.33:981][745]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.12-17.48.33:981][745]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.12-17.48.33:981][745]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.12-17.48.33:985][745]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.12-17.48.33:985][745]LogAudioMixer: Display: 1: FrontRight
+[2022.03.12-17.48.33:995][745]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.12-17.48.33:995][745]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.12-17.48.33:995][745]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.12-17.48.33:995][745]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.12-17.48.33:996][745]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.12-17.48.33:996][745]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.12-17.48.33:996][745]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.12-17.48.33:998][745]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.12-17.48.33:998][745]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.12-17.48.33:998][745]LogInit: FAudioDevice initialized.
+[2022.03.12-17.48.33:998][745]LogAudio: Display: Audio Device (ID: 2) registered with world 'Main'.
+[2022.03.12-17.48.34:008][745]LogLoad: Game class is 'GameModeBase'
+[2022.03.12-17.48.34:010][745]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.03.12-20.48.34
+[2022.03.12-17.48.34:010][745]LogWorld: Bringing up level for play took: 0.000704
+[2022.03.12-17.48.34:011][745]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2022.03.12-17.48.34:407][745]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2022.03.12-17.48.34:409][745]PIE: Server logged in
+[2022.03.12-17.48.34:411][745]PIE: Play in editor total start time 0.446 seconds.
+[2022.03.12-17.48.38:092][963]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.12-17.48.38:092][963]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2022.03.12-17.48.38:092][963]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.03.12-17.48.38:093][963]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.12-17.48.38:100][963]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.12-17.48.38:114][963]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.12-17.48.38:119][963]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.12-17.48.38:120][963]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.12-17.48.38:121][963]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.12-17.48.38:125][963]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.12-17.48.38:128][963]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2022.03.12-17.48.38:157][964]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2022.03.12-17.48.39:328][ 26]LogActorFactory: Actor Factory created SM_TankBase
+[2022.03.12-17.48.39:538][ 36]LogActorFactory: Actor Factory created SM_TankBase
+[2022.03.12-17.48.40:024][ 61]LogStaticMesh: Building static mesh SM_TankTurret...
+[2022.03.12-17.48.40:061][ 61]LogStaticMesh: Built static mesh [0.04s] /Game/Assets/Meshes/SM_TankTurret.SM_TankTurret
+[2022.03.12-17.48.40:097][ 62]LogActorFactory: Actor Factory created SM_TankTurret
+[2022.03.12-17.48.41:387][138]LogActorFactory: Actor Factory created SM_TankTurret
+[2022.03.12-17.48.42:765][218]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TankTurret)
+[2022.03.12-17.48.43:398][256]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TankTurret)
+[2022.03.12-17.48.43:983][291]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TankBase)
+[2022.03.12-17.48.44:324][309]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TankTurret)
+[2022.03.12-17.48.55:813][961]Cmd: DELETE
+[2022.03.12-17.48.55:813][961]Cmd: ACTOR DELETE
+[2022.03.12-17.48.55:836][961]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.12-17.48.55:842][961]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.03.12-17.48.55:843][961]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2022.03.12-17.48.56:633][  9]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TankBase)
+[2022.03.12-17.48.57:307][ 48]Cmd: DELETE
+[2022.03.12-17.48.57:307][ 48]Cmd: ACTOR DELETE
+[2022.03.12-17.48.57:308][ 48]LogEditorActor: Deleted Actor: StaticMeshActor
+[2022.03.12-17.48.57:314][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.03.12-17.48.57:315][ 48]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2022.03.12-17.49.23:449][466]Running F:/EpicOyunlar/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/ToonTanks.uproject" -game -rocket -progress
+[2022.03.12-17.49.23:855][466]Discovering modules, targets and source code for project...
+[2022.03.12-17.49.31:202][466]Binding IntelliSense data...
+[2022.03.12-17.49.48:004][466]Binding IntelliSense data... 50%
+[2022.03.12-17.49.48:004][466]Binding IntelliSense data... 100%
+[2022.03.12-17.49.48:004][466]Writing project files...
+[2022.03.12-17.49.59:279][466]Writing project files... 33%
+[2022.03.12-17.49.59:380][466]Writing project files... 100%
+[2022.03.12-17.49.59:521][466]LogHotReload: Recompiling module ToonTanks...
+[2022.03.12-17.49.59:814][466]Candidate modules for hot reload:
+[2022.03.12-17.49.59:814][466]  ToonTanks
+[2022.03.12-17.49.59:814][466]Launching UnrealBuildTool... [F:/EpicOyunlar/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,7484 ToonTanksEditor Win64 Development -Project="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/ToonTanks.uproject" "D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2022.03.12-17.51.35:109][466]Using 'git status' to determine working set for adaptive non-unity build (D:\GitRepos\UE4Repos\ToonTanks).
+Creating makefile for ToonTanksEditor (no existing makefile)
+Parsing headers for ToonTanksEditor
+  Running UnrealHeaderTool "D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\ToonTanks.uproject" "D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\mert_\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+LogInit: Display: Loading text-based GConfig....
+Reflection code generated for ToonTanksEditor in 22.4756307 seconds
+Building ToonTanksEditor...
+Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 9 actions with 12 processes...
+  [1/9] Default.rc2
+  [2/9] SharedPCH.Engine.ShadowErrors.cpp
+  [3/9] BasePawn.cpp
+  [4/9] ToonTanks.init.gen.cpp
+  [5/9] BasePawn.gen.cpp
+  [6/9] ToonTanks.cpp
+  [7/9] UE4Editor-ToonTanks-7484.lib
+     D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-7484.lib kitapl??? ve D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-7484.exp nesnesi olu?turuluyor
+  [8/9] UE4Editor-ToonTanks-7484.dll
+     D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-7484.suppressed.lib kitapl??? ve D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-7484.suppressed.exp nesnesi olu?turuluyor
+  [9/9] ToonTanksEditor.target
+Total time in Parallel executor: 26.50 seconds
+Total execution time: 95.11 seconds
+
+[2022.03.12-17.51.35:109][466]CompilerResultsLog: New page: Compilation - Mar 12, 2022, 11:51:35 PM
+[2022.03.12-17.51.35:125][466]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitRepos\UE4Repos\ToonTanks).
+[2022.03.12-17.51.35:125][466]CompilerResultsLog: Creating makefile for ToonTanksEditor (no existing makefile)
+[2022.03.12-17.51.35:125][466]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2022.03.12-17.51.35:125][466]CompilerResultsLog:   Running UnrealHeaderTool "D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\ToonTanks.uproject" "D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\mert_\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.03.12-17.51.35:125][466]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.03.12-17.51.35:125][466]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 22.4756307 seconds
+[2022.03.12-17.51.35:125][466]CompilerResultsLog: Building ToonTanksEditor...
+[2022.03.12-17.51.35:125][466]CompilerResultsLog: Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.12-17.51.35:125][466]CompilerResultsLog: Building 9 actions with 12 processes...
+[2022.03.12-17.51.35:125][466]CompilerResultsLog:   [1/9] Default.rc2
+[2022.03.12-17.51.35:125][466]CompilerResultsLog:   [2/9] SharedPCH.Engine.ShadowErrors.cpp
+[2022.03.12-17.51.35:125][466]CompilerResultsLog:   [3/9] BasePawn.cpp
+[2022.03.12-17.51.35:125][466]CompilerResultsLog:   [4/9] ToonTanks.init.gen.cpp
+[2022.03.12-17.51.35:125][466]CompilerResultsLog:   [5/9] BasePawn.gen.cpp
+[2022.03.12-17.51.35:125][466]CompilerResultsLog:   [6/9] ToonTanks.cpp
+[2022.03.12-17.51.35:125][466]CompilerResultsLog:   [7/9] UE4Editor-ToonTanks-7484.lib
+[2022.03.12-17.51.35:125][466]CompilerResultsLog:      D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-7484.lib kitapl??? ve D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-7484.exp nesnesi olu?turuluyor
+[2022.03.12-17.51.35:125][466]CompilerResultsLog:   [8/9] UE4Editor-ToonTanks-7484.dll
+[2022.03.12-17.51.35:125][466]CompilerResultsLog:      D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-7484.suppressed.lib kitapl??? ve D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-7484.suppressed.exp nesnesi olu?turuluyor
+[2022.03.12-17.51.35:125][466]CompilerResultsLog:   [9/9] ToonTanksEditor.target
+[2022.03.12-17.51.35:125][466]CompilerResultsLog: Total time in Parallel executor: 26.50 seconds
+[2022.03.12-17.51.35:125][466]CompilerResultsLog: Total execution time: 95.11 seconds
+[2022.03.12-17.51.35:139][466]LogMainFrame: MainFrame: Module compiling took 95.617 seconds
+[2022.03.12-17.51.35:194][466]Reloading module ToonTanks after successful compile.
+[2022.03.12-17.51.35:214][466]LogClass: Could not find existing package /Script/ToonTanks for HotReload of class BasePawn, assuming a new package.
+[2022.03.12-17.51.35:217][466]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ToonTanks' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2022.03.12-17.51.35:222][466]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.03.12-17.51.35:278][466]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0104 seconds. Added 3823 classes and 930 folders.
+[2022.03.12-17.51.35:429][466]LogSlate: Window 'Add C++ Class' being destroyed

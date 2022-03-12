@@ -1,0 +1,3 @@
+D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\Definitions.ToonTanks.h
+F:\EpicOyunlar\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+F:\EpicOyunlar\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h

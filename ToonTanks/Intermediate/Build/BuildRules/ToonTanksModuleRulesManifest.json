@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\GitRepos\\UE4Repos\\ToonTanks\\ToonTanks\\Source\\ToonTanks\\ToonTanks.Build.cs",
+		"D:\\GitRepos\\UE4Repos\\ToonTanks\\ToonTanks\\Source\\ToonTanks.Target.cs",
+		"D:\\GitRepos\\UE4Repos\\ToonTanks\\ToonTanks\\Source\\ToonTanksEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}
