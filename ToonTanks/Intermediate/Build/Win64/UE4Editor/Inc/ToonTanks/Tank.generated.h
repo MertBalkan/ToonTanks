@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define TOONTANKS_Tank_generated_h
 
 #define ToonTanks_Source_ToonTanks_Tank_h_15_SPARSE_DATA
-#define ToonTanks_Source_ToonTanks_Tank_h_15_RPC_WRAPPERS
-#define ToonTanks_Source_ToonTanks_Tank_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define ToonTanks_Source_ToonTanks_Tank_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execMyGetHitResultUnderCursor);
+
+
+#define ToonTanks_Source_ToonTanks_Tank_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execMyGetHitResultUnderCursor);
+
+
 #define ToonTanks_Source_ToonTanks_Tank_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATank(); \
@@ -62,7 +70,8 @@ public: \
 	FORCEINLINE static uint32 __PPO__TankMoveSpeed() { return STRUCT_OFFSET(ATank, TankMoveSpeed); } \
 	FORCEINLINE static uint32 __PPO__TurnRate() { return STRUCT_OFFSET(ATank, TurnRate); } \
 	FORCEINLINE static uint32 __PPO__SpringArmComponent() { return STRUCT_OFFSET(ATank, SpringArmComponent); } \
-	FORCEINLINE static uint32 __PPO__CameraComponent() { return STRUCT_OFFSET(ATank, CameraComponent); }
+	FORCEINLINE static uint32 __PPO__CameraComponent() { return STRUCT_OFFSET(ATank, CameraComponent); } \
+	FORCEINLINE static uint32 __PPO__CursorPosition() { return STRUCT_OFFSET(ATank, CursorPosition); }
 
 
 #define ToonTanks_Source_ToonTanks_Tank_h_12_PROLOG

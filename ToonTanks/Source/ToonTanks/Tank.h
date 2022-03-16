@@ -34,10 +34,17 @@ private:
 	UPROPERTY(Category="Tank Components", BlueprintReadOnly, VisibleAnywhere, meta=(AllowPrivateAccess="true"))
 	class UCameraComponent* CameraComponent;
 
+	UPROPERTY(Category="Tank Vectors", BlueprintReadOnly, VisibleAnywhere, meta=(AllowPrivateAccess="true"))
+	FVector CursorPosition;
+	
+	// UPROPERTY(Category="Process", BlueprintReadOnly, VisibleAnywhere, meta=(AllowPrivateAccess="true"))
+	bool HitResultBool;
+
+	UFUNCTION(Category="Process", BlueprintPure, BlueprintCallable)
+	bool MyGetHitResultUnderCursor();
+
 	void Move(float Value);
 	void Turn(float Value);
-	
-	bool HitResultBool;
 	
 	FHitResult HitResult;
 	APlayerController* PlayerControllerRef;

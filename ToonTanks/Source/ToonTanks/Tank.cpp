@@ -25,17 +25,13 @@ void ATank::Tick(float DeltaTime)
 
 	if (PlayerControllerRef)
 	{
-		HitResultBool = PlayerControllerRef->GetHitResultUnderCursor
-		(
-			ECollisionChannel::ECC_Visibility,
-			false,
-			HitResult
-		);
+		HitResultBool = MyGetHitResultUnderCursor();
 
+		CursorPosition = HitResult.ImpactPoint;
 		DrawDebugSphere
 		(
 			this->GetWorld(),
-			HitResult.ImpactPoint + FVector(0, 0, 10),
+			CursorPosition,
 			10.0f,
 			30,
 			FColor::Red,
@@ -52,6 +48,16 @@ void ATank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 	PlayerInputComponent->BindAxis("MoveForward", this, &ATank::Move);
 	PlayerInputComponent->BindAxis("Turn", this, &ATank::Turn);
+}
+
+bool ATank::MyGetHitResultUnderCursor()
+{
+	return PlayerControllerRef->GetHitResultUnderCursor
+		(
+			ECollisionChannel::ECC_Visibility,
+			false,
+			HitResult
+		);
 }
 
 void ATank::Move(float Value)
