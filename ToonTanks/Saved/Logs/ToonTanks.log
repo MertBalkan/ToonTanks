@@ -4123,3 +4123,4 @@ Make sure 'BP_Tank_C' has been compiled for  Get Health
 [2022.03.16-19.38.22:844][492]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Main_Auto720C18FED47AEABB53BC7D6B8346EC34A.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto7.umap'
 [2022.03.16-19.38.22:845][492]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.042
 [2022.03.16-19.38.22:845][492]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.042
+[2022.03.16-19.41.50:166][784]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.

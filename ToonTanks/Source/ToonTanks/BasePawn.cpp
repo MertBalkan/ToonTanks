@@ -19,12 +19,6 @@ ABasePawn::ABasePawn()
 	BulletSpawnPoint = CreateDefaultSubobject<USceneComponent>(TEXT("Bullet Spawn Point"));
 	BulletSpawnPoint->SetupAttachment(SM_Turret);
 }
-
-void ABasePawn::BeginPlay()
-{
-	Super::BeginPlay();
-}
-
 void ABasePawn::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);

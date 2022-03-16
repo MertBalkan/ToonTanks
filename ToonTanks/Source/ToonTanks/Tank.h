@@ -17,6 +17,9 @@ public:
 	ATank();
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+protected:
+	virtual void BeginPlay() override;
+	
 private:
 	UPROPERTY(Category="Movement", EditAnywhere, BlueprintReadWrite, meta=(AllowPrivateAccess="true"))
 	float TankMoveSpeed = 250.0f;
@@ -32,4 +35,6 @@ private:
 
 	void Move(float Value);
 	void Turn(float Value);
+	
+	APlayerController* PlayerControllerRef;
 };
