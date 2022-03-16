@@ -20,6 +20,9 @@ public:
 private:
 	UPROPERTY(Category="Movement", EditAnywhere, BlueprintReadWrite, meta=(AllowPrivateAccess="true"))
 	float TankMoveSpeed = 250.0f;
+
+	UPROPERTY(Category="Movement", EditAnywhere, BlueprintReadWrite, meta=(AllowPrivateAccess ="true"))
+	float TurnRate = 45.0f;
 	
 	UPROPERTY(Category="Tank Components", BlueprintReadOnly, VisibleAnywhere, meta=(AllowPrivateAccess="true"))
 	class USpringArmComponent* SpringArmComponent;
@@ -28,4 +31,5 @@ private:
 	class UCameraComponent* CameraComponent;
 
 	void Move(float Value);
+	void Turn(float Value);
 };

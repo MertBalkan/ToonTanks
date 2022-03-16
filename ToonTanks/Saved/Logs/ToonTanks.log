@@ -2704,3 +2704,1422 @@ Make sure 'BP_Tank_C' has been compiled for  Get Health
 [2022.03.16-19.04.13:020][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2022.03.16-19.04.13:023][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
 [2022.03.16-19.04.13:060][ 36]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2022.03.16-19.06.47:733][499]LogEditorTransaction: Undo Straighten Connection(s)
+[2022.03.16-19.07.05:221][464]LogSlate: Window 'Color Picker' being destroyed
+[2022.03.16-19.07.08:460][656]LogSlate: Window 'Color Picker' being destroyed
+[2022.03.16-19.07.11:251][823]BlueprintLog: New page: Compile BP_Tank
+[2022.03.16-19.07.11:298][823]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2022.03.16-19.07.50:290][781]BlueprintLog: New page: Compile BP_Tank
+[2022.03.16-19.07.50:333][781]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2022.03.16-19.07.51:395][844]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.16-19.07.51:402][844]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.16-19.07.51:403][844]PIE: New page: PIE session: Main (Mar 17, 2022, 1:07:51 AM)
+[2022.03.16-19.07.51:403][844]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.07.51:406][844]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003396s)
+[2022.03.16-19.07.51:407][844]LogAIModule: Creating AISystem for world Main
+[2022.03.16-19.07.51:407][844]LogPlayLevel: PIE: World Init took: (0.001158s)
+[2022.03.16-19.07.51:407][844]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.004870s)
+[2022.03.16-19.07.51:432][844]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2022.03.16-19.07.51:432][844]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2022.03.16-19.07.51:432][844]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.16-19.07.51:433][844]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.16-19.07.51:433][844]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.16-19.07.51:433][844]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.16-19.07.51:433][844]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.16-19.07.51:433][844]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.16-19.07.51:433][844]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.16-19.07.51:433][844]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.16-19.07.51:433][844]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.16-19.07.51:433][844]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.16-19.07.51:433][844]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.16-19.07.51:433][844]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.16-19.07.51:437][844]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.16-19.07.51:437][844]LogAudioMixer: Display: 1: FrontRight
+[2022.03.16-19.07.51:445][844]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.16-19.07.51:447][844]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.16-19.07.51:447][844]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.16-19.07.51:447][844]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.16-19.07.51:447][844]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.16-19.07.51:447][844]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.16-19.07.51:447][844]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.16-19.07.51:449][844]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.16-19.07.51:449][844]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.16-19.07.51:449][844]LogInit: FAudioDevice initialized.
+[2022.03.16-19.07.51:449][844]LogAudio: Display: Audio Device (ID: 27) registered with world 'Main'.
+[2022.03.16-19.07.51:459][844]LogLoad: Game class is 'GameModeBase'
+[2022.03.16-19.07.51:460][844]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.03.16-22.07.51
+[2022.03.16-19.07.51:460][844]LogWorld: Bringing up level for play took: 0.001213
+[2022.03.16-19.07.51:460][844]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2022.03.16-19.07.51:580][844]PIE: Server logged in
+[2022.03.16-19.07.51:581][844]PIE: Play in editor total start time 0.181 seconds.
+[2022.03.16-19.07.54:929][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.07.54:929][ 41]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.07.54:929][ 41]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.03.16-19.07.54:930][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.07.54:945][ 41]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.16-19.07.54:961][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.07.54:983][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.07.54:983][ 41]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.07.54:985][ 41]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.07.54:990][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2022.03.16-19.07.55:027][ 42]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2022.03.16-19.07.55:969][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tank" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset" SILENT=true
+[2022.03.16-19.07.55:987][ 84]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/BP_TankAF414BB84B2B2085246A82A51E484AF4.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset'
+[2022.03.16-19.07.56:000][ 84]AssetCheck: New page: Asset Save: BP_Tank
+[2022.03.16-19.07.56:000][ 84]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Tank.BP_Tank
+[2022.03.16-19.08.01:325][401]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tank" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset" SILENT=true
+[2022.03.16-19.08.01:341][401]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/BP_TankE3FD569841E3B36D858348A3FCBD8D3A.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset'
+[2022.03.16-19.08.01:355][401]AssetCheck: New page: Asset Save: BP_Tank
+[2022.03.16-19.08.01:355][401]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Tank.BP_Tank
+[2022.03.16-19.08.01:713][423]BlueprintLog: New page: Compile BP_Tank
+[2022.03.16-19.08.01:754][423]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2022.03.16-19.08.02:612][468]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.16-19.08.02:618][468]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.16-19.08.02:618][468]PIE: New page: PIE session: Main (Mar 17, 2022, 1:08:02 AM)
+[2022.03.16-19.08.02:657][468]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.08.02:659][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002680s)
+[2022.03.16-19.08.02:660][468]LogAIModule: Creating AISystem for world Main
+[2022.03.16-19.08.02:660][468]LogPlayLevel: PIE: World Init took: (0.000897s)
+[2022.03.16-19.08.02:660][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003724s)
+[2022.03.16-19.08.02:685][468]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2022.03.16-19.08.02:686][468]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2022.03.16-19.08.02:686][468]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.16-19.08.02:686][468]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.16-19.08.02:686][468]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.16-19.08.02:686][468]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.16-19.08.02:686][468]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.16-19.08.02:686][468]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.16-19.08.02:686][468]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.16-19.08.02:686][468]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.16-19.08.02:687][468]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.16-19.08.02:687][468]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.16-19.08.02:687][468]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.16-19.08.02:687][468]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.16-19.08.02:690][468]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.16-19.08.02:690][468]LogAudioMixer: Display: 1: FrontRight
+[2022.03.16-19.08.02:698][468]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.16-19.08.02:701][468]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.16-19.08.02:701][468]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.16-19.08.02:701][468]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.16-19.08.02:702][468]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.16-19.08.02:702][468]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.16-19.08.02:702][468]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.16-19.08.02:703][468]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.16-19.08.02:703][468]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.16-19.08.02:703][468]LogInit: FAudioDevice initialized.
+[2022.03.16-19.08.02:703][468]LogAudio: Display: Audio Device (ID: 28) registered with world 'Main'.
+[2022.03.16-19.08.02:712][468]LogLoad: Game class is 'GameModeBase'
+[2022.03.16-19.08.02:715][468]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.03.16-22.08.02
+[2022.03.16-19.08.02:715][468]LogWorld: Bringing up level for play took: 0.001472
+[2022.03.16-19.08.02:715][468]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2022.03.16-19.08.02:717][468]PIE: Server logged in
+[2022.03.16-19.08.02:718][468]PIE: Play in editor total start time 0.101 seconds.
+[2022.03.16-19.08.04:159][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.08.04:159][551]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.08.04:159][551]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.03.16-19.08.04:160][551]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.08.04:174][551]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.16-19.08.04:190][551]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.08.04:212][551]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.16-19.08.04:212][551]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.08.04:214][551]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.08.04:215][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.08.04:219][551]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2022.03.16-19.08.04:250][552]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2022.03.16-19.08.06:048][659]BlueprintLog: New page: Compile BP_Tank
+[2022.03.16-19.08.06:092][659]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2022.03.16-19.08.07:584][747]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.16-19.08.07:589][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.16-19.08.07:589][747]PIE: New page: PIE session: Main (Mar 17, 2022, 1:08:07 AM)
+[2022.03.16-19.08.07:629][747]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.08.07:631][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002706s)
+[2022.03.16-19.08.07:632][747]LogAIModule: Creating AISystem for world Main
+[2022.03.16-19.08.07:632][747]LogPlayLevel: PIE: World Init took: (0.001060s)
+[2022.03.16-19.08.07:632][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003988s)
+[2022.03.16-19.08.07:659][747]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2022.03.16-19.08.07:660][747]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2022.03.16-19.08.07:660][747]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.16-19.08.07:660][747]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.16-19.08.07:660][747]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.16-19.08.07:660][747]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.16-19.08.07:660][747]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.16-19.08.07:660][747]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.16-19.08.07:660][747]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.16-19.08.07:660][747]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.16-19.08.07:660][747]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.16-19.08.07:660][747]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.16-19.08.07:660][747]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.16-19.08.07:660][747]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.16-19.08.07:665][747]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.16-19.08.07:665][747]LogAudioMixer: Display: 1: FrontRight
+[2022.03.16-19.08.07:673][747]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.16-19.08.07:673][747]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.16-19.08.07:673][747]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.16-19.08.07:673][747]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.16-19.08.07:673][747]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.16-19.08.07:673][747]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.16-19.08.07:673][747]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.16-19.08.07:674][747]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.16-19.08.07:674][747]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.16-19.08.07:674][747]LogInit: FAudioDevice initialized.
+[2022.03.16-19.08.07:674][747]LogAudio: Display: Audio Device (ID: 29) registered with world 'Main'.
+[2022.03.16-19.08.07:685][747]LogLoad: Game class is 'GameModeBase'
+[2022.03.16-19.08.07:686][747]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.03.16-22.08.07
+[2022.03.16-19.08.07:687][747]LogWorld: Bringing up level for play took: 0.001122
+[2022.03.16-19.08.07:687][747]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2022.03.16-19.08.07:689][747]PIE: Server logged in
+[2022.03.16-19.08.07:690][747]PIE: Play in editor total start time 0.103 seconds.
+[2022.03.16-19.08.08:699][805]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.08.08:699][805]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.08.08:699][805]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.03.16-19.08.08:699][805]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.08.08:709][805]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.16-19.08.08:723][805]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.08.08:745][805]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.16-19.08.08:745][805]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.08.08:746][805]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.08.08:748][805]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.08.08:752][805]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2022.03.16-19.08.08:785][806]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2022.03.16-19.08.44:178][818]BlueprintLog: New page: Compile BP_Tank
+[2022.03.16-19.08.44:627][818]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2022.03.16-19.08.45:943][896]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.16-19.08.45:949][896]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.16-19.08.45:949][896]PIE: New page: PIE session: Main (Mar 17, 2022, 1:08:45 AM)
+[2022.03.16-19.08.45:949][896]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.08.45:952][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003177s)
+[2022.03.16-19.08.45:953][896]LogAIModule: Creating AISystem for world Main
+[2022.03.16-19.08.45:953][896]LogPlayLevel: PIE: World Init took: (0.000867s)
+[2022.03.16-19.08.45:953][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.004204s)
+[2022.03.16-19.08.45:979][896]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2022.03.16-19.08.45:979][896]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2022.03.16-19.08.45:979][896]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.16-19.08.45:979][896]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.16-19.08.45:979][896]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.16-19.08.45:979][896]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.16-19.08.45:979][896]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.16-19.08.45:979][896]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.16-19.08.45:979][896]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.16-19.08.45:979][896]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.16-19.08.45:980][896]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.16-19.08.45:980][896]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.16-19.08.45:980][896]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.16-19.08.45:980][896]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.16-19.08.45:983][896]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.16-19.08.45:983][896]LogAudioMixer: Display: 1: FrontRight
+[2022.03.16-19.08.45:991][896]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.16-19.08.45:991][896]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.16-19.08.45:991][896]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.16-19.08.45:991][896]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.16-19.08.45:992][896]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.16-19.08.45:992][896]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.16-19.08.45:992][896]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.16-19.08.45:993][896]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.16-19.08.45:993][896]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.16-19.08.45:993][896]LogInit: FAudioDevice initialized.
+[2022.03.16-19.08.45:993][896]LogAudio: Display: Audio Device (ID: 30) registered with world 'Main'.
+[2022.03.16-19.08.46:007][896]LogLoad: Game class is 'GameModeBase'
+[2022.03.16-19.08.46:008][896]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.03.16-22.08.46
+[2022.03.16-19.08.46:009][896]LogWorld: Bringing up level for play took: 0.001305
+[2022.03.16-19.08.46:009][896]LogOnline: OSS: Creating online subsystem instance for: :Context_34
+[2022.03.16-19.08.46:011][896]PIE: Server logged in
+[2022.03.16-19.08.46:011][896]PIE: Play in editor total start time 0.064 seconds.
+[2022.03.16-19.08.47:549][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.08.47:549][985]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.08.47:549][985]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.03.16-19.08.47:549][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.08.47:561][985]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.16-19.08.47:576][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.08.47:599][985]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.16-19.08.47:599][985]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.08.47:600][985]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.08.47:603][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.08.47:606][985]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2022.03.16-19.08.47:647][986]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2022.03.16-19.08.53:211][313]BlueprintLog: New page: Compile BP_Tank
+[2022.03.16-19.08.53:255][313]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2022.03.16-19.08.54:098][363]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.16-19.08.54:104][363]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.16-19.08.54:104][363]PIE: New page: PIE session: Main (Mar 17, 2022, 1:08:54 AM)
+[2022.03.16-19.08.54:105][363]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.08.54:107][363]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002687s)
+[2022.03.16-19.08.54:108][363]LogAIModule: Creating AISystem for world Main
+[2022.03.16-19.08.54:108][363]LogPlayLevel: PIE: World Init took: (0.000862s)
+[2022.03.16-19.08.54:108][363]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003696s)
+[2022.03.16-19.08.54:133][363]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2022.03.16-19.08.54:133][363]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2022.03.16-19.08.54:133][363]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.16-19.08.54:133][363]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.16-19.08.54:134][363]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.16-19.08.54:134][363]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.16-19.08.54:134][363]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.16-19.08.54:134][363]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.16-19.08.54:134][363]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.16-19.08.54:134][363]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.16-19.08.54:135][363]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.16-19.08.54:135][363]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.16-19.08.54:135][363]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.16-19.08.54:135][363]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.16-19.08.54:138][363]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.16-19.08.54:138][363]LogAudioMixer: Display: 1: FrontRight
+[2022.03.16-19.08.54:146][363]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.16-19.08.54:147][363]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.16-19.08.54:147][363]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.16-19.08.54:147][363]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.16-19.08.54:147][363]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.16-19.08.54:147][363]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.16-19.08.54:147][363]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.16-19.08.54:148][363]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.16-19.08.54:148][363]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.16-19.08.54:148][363]LogInit: FAudioDevice initialized.
+[2022.03.16-19.08.54:148][363]LogAudio: Display: Audio Device (ID: 31) registered with world 'Main'.
+[2022.03.16-19.08.54:157][363]LogLoad: Game class is 'GameModeBase'
+[2022.03.16-19.08.54:159][363]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.03.16-22.08.54
+[2022.03.16-19.08.54:159][363]LogWorld: Bringing up level for play took: 0.001246
+[2022.03.16-19.08.54:159][363]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2022.03.16-19.08.54:170][363]PIE: Server logged in
+[2022.03.16-19.08.54:171][363]PIE: Play in editor total start time 0.069 seconds.
+[2022.03.16-19.08.55:288][427]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.08.55:288][427]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.08.55:288][427]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.03.16-19.08.55:289][427]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.08.55:302][427]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.16-19.08.55:317][427]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.08.55:340][427]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.16-19.08.55:340][427]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.08.55:341][427]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.08.55:344][427]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.08.55:347][427]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2022.03.16-19.08.55:384][428]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2022.03.16-19.08.59:560][677]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.16-19.08.59:566][677]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.03.16-19.08.59:567][677]LogPlayLevel: [PlayLevel] Compiling BP_Tank before play...
+[2022.03.16-19.08.59:614][677]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2022.03.16-19.08.59:615][677]LogPlayLevel: PlayLevel: Blueprint regeneration took 48 ms (1 blueprints)
+[2022.03.16-19.08.59:615][677]PIE: New page: PIE session: Main (Mar 17, 2022, 1:08:59 AM)
+[2022.03.16-19.08.59:615][677]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.08.59:618][677]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002907s)
+[2022.03.16-19.08.59:619][677]LogAIModule: Creating AISystem for world Main
+[2022.03.16-19.08.59:619][677]LogPlayLevel: PIE: World Init took: (0.000854s)
+[2022.03.16-19.08.59:619][677]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003897s)
+[2022.03.16-19.08.59:642][677]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2022.03.16-19.08.59:642][677]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2022.03.16-19.08.59:642][677]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.16-19.08.59:642][677]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.16-19.08.59:642][677]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.16-19.08.59:642][677]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.16-19.08.59:642][677]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.16-19.08.59:642][677]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.16-19.08.59:642][677]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.16-19.08.59:642][677]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.16-19.08.59:643][677]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.16-19.08.59:643][677]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.16-19.08.59:643][677]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.16-19.08.59:643][677]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.16-19.08.59:647][677]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.16-19.08.59:647][677]LogAudioMixer: Display: 1: FrontRight
+[2022.03.16-19.08.59:654][677]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.16-19.08.59:655][677]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.16-19.08.59:655][677]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.16-19.08.59:655][677]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.16-19.08.59:655][677]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.16-19.08.59:655][677]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.16-19.08.59:655][677]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.16-19.08.59:656][677]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.16-19.08.59:656][677]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.16-19.08.59:656][677]LogInit: FAudioDevice initialized.
+[2022.03.16-19.08.59:656][677]LogAudio: Display: Audio Device (ID: 32) registered with world 'Main'.
+[2022.03.16-19.08.59:666][677]LogLoad: Game class is 'GameModeBase'
+[2022.03.16-19.08.59:668][677]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.03.16-22.08.59
+[2022.03.16-19.08.59:668][677]LogWorld: Bringing up level for play took: 0.001227
+[2022.03.16-19.08.59:669][677]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2022.03.16-19.08.59:670][677]PIE: Server logged in
+[2022.03.16-19.08.59:671][677]PIE: Play in editor total start time 0.106 seconds.
+[2022.03.16-19.09.00:678][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.09.00:678][735]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.09.00:678][735]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.03.16-19.09.00:678][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.09.00:690][735]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.16-19.09.00:706][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.09.00:729][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.09.00:729][735]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.09.00:730][735]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.09.00:736][735]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2022.03.16-19.09.00:773][736]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2022.03.16-19.09.07:704][125]BlueprintLog: New page: Compile BP_Tank
+[2022.03.16-19.09.07:865][125]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2022.03.16-19.09.08:837][183]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.16-19.09.08:843][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.16-19.09.08:843][183]PIE: New page: PIE session: Main (Mar 17, 2022, 1:09:08 AM)
+[2022.03.16-19.09.08:843][183]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.09.08:845][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002750s)
+[2022.03.16-19.09.08:846][183]LogAIModule: Creating AISystem for world Main
+[2022.03.16-19.09.08:846][183]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2022.03.16-19.09.08:846][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003735s)
+[2022.03.16-19.09.08:871][183]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2022.03.16-19.09.08:872][183]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2022.03.16-19.09.08:872][183]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.16-19.09.08:872][183]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.16-19.09.08:872][183]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.16-19.09.08:872][183]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.16-19.09.08:872][183]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.16-19.09.08:872][183]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.16-19.09.08:872][183]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.16-19.09.08:872][183]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.16-19.09.08:873][183]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.16-19.09.08:873][183]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.16-19.09.08:873][183]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.16-19.09.08:873][183]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.16-19.09.08:876][183]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.16-19.09.08:876][183]LogAudioMixer: Display: 1: FrontRight
+[2022.03.16-19.09.08:884][183]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.16-19.09.08:884][183]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.16-19.09.08:884][183]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.16-19.09.08:884][183]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.16-19.09.08:885][183]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.16-19.09.08:885][183]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.16-19.09.08:885][183]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.16-19.09.08:886][183]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.16-19.09.08:886][183]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.16-19.09.08:886][183]LogInit: FAudioDevice initialized.
+[2022.03.16-19.09.08:886][183]LogAudio: Display: Audio Device (ID: 33) registered with world 'Main'.
+[2022.03.16-19.09.08:903][183]LogLoad: Game class is 'GameModeBase'
+[2022.03.16-19.09.08:905][183]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.03.16-22.09.08
+[2022.03.16-19.09.08:905][183]LogWorld: Bringing up level for play took: 0.001116
+[2022.03.16-19.09.08:905][183]LogOnline: OSS: Creating online subsystem instance for: :Context_37
+[2022.03.16-19.09.08:907][183]PIE: Server logged in
+[2022.03.16-19.09.08:908][183]PIE: Play in editor total start time 0.067 seconds.
+[2022.03.16-19.09.11:529][332]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.09.11:529][332]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.09.11:529][332]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.03.16-19.09.11:529][332]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.09.11:538][332]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.16-19.09.11:562][332]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.09.11:584][332]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.09.11:584][332]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.09.11:585][332]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.09.11:592][332]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2022.03.16-19.09.11:628][333]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2022.03.16-19.09.13:671][439]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'AActor::K2_AddActorLocalRotation' [Belirtilen modül bulunamadı.]
+[2022.03.16-19.09.26:247][189]BlueprintLog: New page: Compile BP_Tank
+[2022.03.16-19.09.26:291][189]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2022.03.16-19.09.27:260][246]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.16-19.09.27:266][246]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.16-19.09.27:266][246]PIE: New page: PIE session: Main (Mar 17, 2022, 1:09:27 AM)
+[2022.03.16-19.09.27:288][246]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.09.27:291][246]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002883s)
+[2022.03.16-19.09.27:291][246]LogAIModule: Creating AISystem for world Main
+[2022.03.16-19.09.27:292][246]LogPlayLevel: PIE: World Init took: (0.000860s)
+[2022.03.16-19.09.27:292][246]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003914s)
+[2022.03.16-19.09.27:318][246]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2022.03.16-19.09.27:319][246]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2022.03.16-19.09.27:319][246]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.16-19.09.27:319][246]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.16-19.09.27:319][246]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.16-19.09.27:319][246]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.16-19.09.27:319][246]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.16-19.09.27:319][246]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.16-19.09.27:319][246]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.16-19.09.27:319][246]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.16-19.09.27:320][246]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.16-19.09.27:320][246]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.16-19.09.27:320][246]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.16-19.09.27:320][246]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.16-19.09.27:323][246]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.16-19.09.27:323][246]LogAudioMixer: Display: 1: FrontRight
+[2022.03.16-19.09.27:331][246]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.16-19.09.27:331][246]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.16-19.09.27:331][246]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.16-19.09.27:331][246]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.16-19.09.27:332][246]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.16-19.09.27:332][246]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.16-19.09.27:332][246]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.16-19.09.27:333][246]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.16-19.09.27:333][246]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.16-19.09.27:333][246]LogInit: FAudioDevice initialized.
+[2022.03.16-19.09.27:333][246]LogAudio: Display: Audio Device (ID: 34) registered with world 'Main'.
+[2022.03.16-19.09.27:341][246]LogLoad: Game class is 'GameModeBase'
+[2022.03.16-19.09.27:343][246]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.03.16-22.09.27
+[2022.03.16-19.09.27:343][246]LogWorld: Bringing up level for play took: 0.001446
+[2022.03.16-19.09.27:344][246]LogOnline: OSS: Creating online subsystem instance for: :Context_38
+[2022.03.16-19.09.27:346][246]PIE: Server logged in
+[2022.03.16-19.09.27:346][246]PIE: Play in editor total start time 0.083 seconds.
+[2022.03.16-19.09.40:219][992]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.09.40:219][992]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.09.40:219][992]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.03.16-19.09.40:219][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.09.40:229][992]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.16-19.09.40:244][992]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.09.40:266][992]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.16-19.09.40:266][992]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.09.40:267][992]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.09.40:269][992]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.09.40:273][992]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2022.03.16-19.09.40:307][993]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2022.03.16-19.09.44:784][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tank" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset" SILENT=true
+[2022.03.16-19.09.44:801][257]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/BP_Tank41B380534B2DC1D58F590EBFBAF60649.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset'
+[2022.03.16-19.09.44:812][257]AssetCheck: New page: Asset Save: BP_Tank
+[2022.03.16-19.09.44:812][257]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Tank.BP_Tank
+[2022.03.16-19.11.55:214][685]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2022.03.16-19.11.55:216][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.03.16-19.11.55:227][685]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Main_Auto570155F58433DCABABA1EED8346E989F4.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto5.umap'
+[2022.03.16-19.11.55:229][685]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.040
+[2022.03.16-19.11.55:229][685]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.040
+[2022.03.16-19.12.16:701][885]BlueprintLog: New page: Compile BP_Tank
+[2022.03.16-19.12.16:748][885]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2022.03.16-19.12.17:506][928]Candidate modules for hot reload:
+[2022.03.16-19.12.17:506][928]  ToonTanks
+[2022.03.16-19.12.17:506][928]Launching UnrealBuildTool... [F:/EpicOyunlar/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,6252 ToonTanksEditor Win64 Development -Project="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/ToonTanks.uproject" "D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2022.03.16-19.12.17:510][928]Warning: Starting HotReload took  0.0s.
+[2022.03.16-19.12.32:648][249]CompilerResultsLog: New page: Compilation - Mar 17, 2022, 1:12:32 AM
+[2022.03.16-19.12.32:648][249]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitRepos\UE4Repos\ToonTanks).
+[2022.03.16-19.12.32:648][249]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2022.03.16-19.12.32:648][249]CompilerResultsLog:   Running UnrealHeaderTool "D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\ToonTanks.uproject" "D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\mert_\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.03.16-19.12.32:648][249]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.03.16-19.12.32:648][249]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 9.8567534 seconds
+[2022.03.16-19.12.32:649][249]CompilerResultsLog: Building ToonTanksEditor...
+[2022.03.16-19.12.32:649][249]CompilerResultsLog: Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.16-19.12.32:649][249]CompilerResultsLog: Building 8 actions with 12 processes...
+[2022.03.16-19.12.32:649][249]CompilerResultsLog:   [1/8] BasePawn.cpp
+[2022.03.16-19.12.32:649][249]CompilerResultsLog:   [2/8] ToonTanks.init.gen.cpp
+[2022.03.16-19.12.32:649][249]CompilerResultsLog:   [3/8] Tank.gen.cpp
+[2022.03.16-19.12.32:649][249]CompilerResultsLog:   [4/8] BasePawn.gen.cpp
+[2022.03.16-19.12.32:649][249]CompilerResultsLog:   [5/8] Tank.cpp
+[2022.03.16-19.12.32:649][249]CompilerResultsLog:   [6/8] UE4Editor-ToonTanks-6252.lib
+[2022.03.16-19.12.32:649][249]CompilerResultsLog:      D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6252.lib kitapl??? ve D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6252.exp nesnesi olu?turuluyor
+[2022.03.16-19.12.32:649][249]CompilerResultsLog:   [7/8] UE4Editor-ToonTanks-6252.dll
+[2022.03.16-19.12.32:649][249]CompilerResultsLog:      D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6252.suppressed.lib kitapl??? ve D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6252.suppressed.exp nesnesi olu?turuluyor
+[2022.03.16-19.12.32:649][249]CompilerResultsLog:   [8/8] ToonTanksEditor.target
+[2022.03.16-19.12.32:649][249]CompilerResultsLog: Total time in Parallel executor: 3.88 seconds
+[2022.03.16-19.12.32:649][249]CompilerResultsLog: Total execution time: 14.65 seconds
+[2022.03.16-19.12.32:649][249]LogMainFrame: MainFrame: Module compiling took 15.145 seconds
+[2022.03.16-19.12.32:680][249]LogClass: Could not find existing class BasePawn in package /Script/ToonTanks for HotReload, assuming new class
+[2022.03.16-19.12.32:680][249]LogClass: Could not find existing class Tank in package /Script/ToonTanks for HotReload, assuming new class
+[2022.03.16-19.12.32:688][249]LogHotReload: Re-instancing BasePawn after hot-reload.
+[2022.03.16-19.12.32:735][249]LogHotReload: Re-instancing Tank after hot-reload.
+[2022.03.16-19.12.32:789][249]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ToonTanks' in 0.0005 seconds. Added 2 classes and 2 folders.
+[2022.03.16-19.12.32:795][249]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.03.16-19.12.32:815][249]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0116 seconds. Added 3824 classes and 930 folders.
+[2022.03.16-19.12.32:815][249]Display: HotReload took 15.3s.
+[2022.03.16-19.12.37:298][316]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.16-19.12.37:303][316]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.16-19.12.37:303][316]PIE: New page: PIE session: Main (Mar 17, 2022, 1:12:37 AM)
+[2022.03.16-19.12.37:327][316]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.12.37:330][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002789s)
+[2022.03.16-19.12.37:330][316]LogAIModule: Creating AISystem for world Main
+[2022.03.16-19.12.37:330][316]LogPlayLevel: PIE: World Init took: (0.000959s)
+[2022.03.16-19.12.37:331][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003930s)
+[2022.03.16-19.12.37:416][316]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2022.03.16-19.12.37:418][316]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2022.03.16-19.12.37:418][316]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.16-19.12.37:418][316]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.16-19.12.37:418][316]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.16-19.12.37:418][316]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.16-19.12.37:418][316]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.16-19.12.37:418][316]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.16-19.12.37:419][316]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.16-19.12.37:419][316]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.16-19.12.37:419][316]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.16-19.12.37:419][316]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.16-19.12.37:419][316]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.16-19.12.37:419][316]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.16-19.12.37:423][316]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.16-19.12.37:423][316]LogAudioMixer: Display: 1: FrontRight
+[2022.03.16-19.12.37:430][316]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.16-19.12.37:430][316]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.16-19.12.37:431][316]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.16-19.12.37:431][316]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.16-19.12.37:431][316]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.16-19.12.37:431][316]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.16-19.12.37:431][316]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.16-19.12.37:432][316]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.16-19.12.37:432][316]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.16-19.12.37:432][316]LogInit: FAudioDevice initialized.
+[2022.03.16-19.12.37:432][316]LogAudio: Display: Audio Device (ID: 35) registered with world 'Main'.
+[2022.03.16-19.12.37:444][316]LogLoad: Game class is 'GameModeBase'
+[2022.03.16-19.12.37:446][316]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.03.16-22.12.37
+[2022.03.16-19.12.37:447][316]LogWorld: Bringing up level for play took: 0.001295
+[2022.03.16-19.12.37:447][316]LogOnline: OSS: Creating online subsystem instance for: :Context_39
+[2022.03.16-19.12.37:450][316]PIE: Server logged in
+[2022.03.16-19.12.37:451][316]PIE: Play in editor total start time 0.15 seconds.
+[2022.03.16-19.12.43:149][653]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.12.43:149][653]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.12.43:149][653]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.03.16-19.12.43:149][653]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.12.43:162][653]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.16-19.12.43:180][653]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.12.43:199][653]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.16-19.12.43:199][653]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.12.43:201][653]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.12.43:203][653]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.12.43:206][653]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2022.03.16-19.12.43:249][654]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2022.03.16-19.13.06:093][876]Candidate modules for hot reload:
+[2022.03.16-19.13.06:093][876]  ToonTanks
+[2022.03.16-19.13.06:093][876]Launching UnrealBuildTool... [F:/EpicOyunlar/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,5373 ToonTanksEditor Win64 Development -Project="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/ToonTanks.uproject" "D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2022.03.16-19.13.06:096][876]Warning: Starting HotReload took  0.0s.
+[2022.03.16-19.13.09:235][ 54]CompilerResultsLog: New page: Compilation - Mar 17, 2022, 1:13:09 AM
+[2022.03.16-19.13.09:235][ 54]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitRepos\UE4Repos\ToonTanks).
+[2022.03.16-19.13.09:235][ 54]CompilerResultsLog: Building ToonTanksEditor...
+[2022.03.16-19.13.09:235][ 54]CompilerResultsLog: Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.16-19.13.09:235][ 54]CompilerResultsLog: Building 4 actions with 12 processes...
+[2022.03.16-19.13.09:235][ 54]CompilerResultsLog:   [1/4] Tank.cpp
+[2022.03.16-19.13.09:235][ 54]CompilerResultsLog:   [2/4] UE4Editor-ToonTanks-5373.lib
+[2022.03.16-19.13.09:236][ 54]CompilerResultsLog:      D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-5373.lib kitapl??? ve D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-5373.exp nesnesi olu?turuluyor
+[2022.03.16-19.13.09:236][ 54]CompilerResultsLog:   [3/4] UE4Editor-ToonTanks-5373.dll
+[2022.03.16-19.13.09:236][ 54]CompilerResultsLog:      D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-5373.suppressed.lib kitapl??? ve D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-5373.suppressed.exp nesnesi olu?turuluyor
+[2022.03.16-19.13.09:236][ 54]CompilerResultsLog:   [4/4] ToonTanksEditor.target
+[2022.03.16-19.13.09:236][ 54]CompilerResultsLog: Total time in Parallel executor: 2.15 seconds
+[2022.03.16-19.13.09:236][ 54]CompilerResultsLog: Total execution time: 3.05 seconds
+[2022.03.16-19.13.09:236][ 54]LogMainFrame: MainFrame: Module compiling took 3.145 seconds
+[2022.03.16-19.13.09:271][ 54]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ToonTanks' in 0.0002 seconds. Added 2 classes and 2 folders.
+[2022.03.16-19.13.09:275][ 54]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.03.16-19.13.09:365][ 54]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0094 seconds. Added 3824 classes and 930 folders.
+[2022.03.16-19.13.09:365][ 54]Display: HotReload took  3.3s.
+[2022.03.16-19.13.18:259][476]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.16-19.13.18:264][476]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.16-19.13.18:264][476]PIE: New page: PIE session: Main (Mar 17, 2022, 1:13:18 AM)
+[2022.03.16-19.13.18:264][476]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.13.18:267][476]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002723s)
+[2022.03.16-19.13.18:267][476]LogAIModule: Creating AISystem for world Main
+[2022.03.16-19.13.18:267][476]LogPlayLevel: PIE: World Init took: (0.000886s)
+[2022.03.16-19.13.18:268][476]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003737s)
+[2022.03.16-19.13.18:328][476]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2022.03.16-19.13.18:331][476]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2022.03.16-19.13.18:331][476]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.16-19.13.18:331][476]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.16-19.13.18:331][476]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.16-19.13.18:331][476]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.16-19.13.18:331][476]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.16-19.13.18:331][476]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.16-19.13.18:331][476]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.16-19.13.18:331][476]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.16-19.13.18:331][476]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.16-19.13.18:331][476]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.16-19.13.18:331][476]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.16-19.13.18:331][476]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.16-19.13.18:335][476]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.16-19.13.18:335][476]LogAudioMixer: Display: 1: FrontRight
+[2022.03.16-19.13.18:342][476]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.16-19.13.18:343][476]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.16-19.13.18:343][476]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.16-19.13.18:343][476]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.16-19.13.18:344][476]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.16-19.13.18:344][476]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.16-19.13.18:344][476]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.16-19.13.18:345][476]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.16-19.13.18:345][476]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.16-19.13.18:345][476]LogInit: FAudioDevice initialized.
+[2022.03.16-19.13.18:345][476]LogAudio: Display: Audio Device (ID: 36) registered with world 'Main'.
+[2022.03.16-19.13.18:353][476]LogLoad: Game class is 'GameModeBase'
+[2022.03.16-19.13.18:355][476]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.03.16-22.13.18
+[2022.03.16-19.13.18:355][476]LogWorld: Bringing up level for play took: 0.001399
+[2022.03.16-19.13.18:356][476]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2022.03.16-19.13.18:357][476]PIE: Server logged in
+[2022.03.16-19.13.18:358][476]PIE: Play in editor total start time 0.095 seconds.
+[2022.03.16-19.13.20:218][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.13.20:218][585]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.13.20:218][585]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.03.16-19.13.20:218][585]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.13.20:229][585]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.16-19.13.20:245][585]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.13.20:264][585]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.16-19.13.20:265][585]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.13.20:266][585]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.13.20:267][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.13.20:277][585]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2022.03.16-19.13.20:310][586]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2022.03.16-19.13.23:826][793]LogEditorViewport: Clicking on Actor (LMB): BP_Tank_C (BP_Tank)
+[2022.03.16-19.13.24:395][793]LogEditorViewport: Clicking on Actor (LMB): BP_Tank_C (BP_Tank)
+[2022.03.16-19.13.29:280][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.03.16-19.13.29:324][ 43]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2022.03.16-19.13.29:336][ 43]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Main464583504AC36B952F0B2C897C5291CC.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main.umap'
+[2022.03.16-19.13.29:377][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2022.03.16-19.13.29:507][ 43]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Main_BuiltData813EE1E648A913C4CF318CB6D714EC5E.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2022.03.16-19.13.29:520][ 43]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.16-19.13.29:520][ 43]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2022.03.16-19.13.29:520][ 43]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2022.03.16-19.13.45:659][113]Candidate modules for hot reload:
+[2022.03.16-19.13.45:659][113]  ToonTanks
+[2022.03.16-19.13.45:660][113]Launching UnrealBuildTool... [F:/EpicOyunlar/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,3994 ToonTanksEditor Win64 Development -Project="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/ToonTanks.uproject" "D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2022.03.16-19.13.45:664][113]Warning: Starting HotReload took  0.0s.
+[2022.03.16-19.13.49:753][338]CompilerResultsLog: New page: Compilation - Mar 17, 2022, 1:13:49 AM
+[2022.03.16-19.13.49:753][338]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitRepos\UE4Repos\ToonTanks).
+[2022.03.16-19.13.49:753][338]CompilerResultsLog: Building ToonTanksEditor...
+[2022.03.16-19.13.49:753][338]CompilerResultsLog: Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.16-19.13.49:753][338]CompilerResultsLog: Building 4 actions with 12 processes...
+[2022.03.16-19.13.49:753][338]CompilerResultsLog:   [1/4] Tank.cpp
+[2022.03.16-19.13.49:753][338]CompilerResultsLog:   [2/4] UE4Editor-ToonTanks-3994.lib
+[2022.03.16-19.13.49:753][338]CompilerResultsLog:      D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-3994.lib kitapl??? ve D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-3994.exp nesnesi olu?turuluyor
+[2022.03.16-19.13.49:753][338]CompilerResultsLog:   [3/4] UE4Editor-ToonTanks-3994.dll
+[2022.03.16-19.13.49:753][338]CompilerResultsLog:      D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-3994.suppressed.lib kitapl??? ve D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-3994.suppressed.exp nesnesi olu?turuluyor
+[2022.03.16-19.13.49:753][338]CompilerResultsLog:   [4/4] ToonTanksEditor.target
+[2022.03.16-19.13.49:753][338]CompilerResultsLog: Total time in Parallel executor: 3.05 seconds
+[2022.03.16-19.13.49:753][338]CompilerResultsLog: Total execution time: 3.99 seconds
+[2022.03.16-19.13.49:753][338]LogMainFrame: MainFrame: Module compiling took 4.097 seconds
+[2022.03.16-19.13.49:793][338]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ToonTanks' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2022.03.16-19.13.49:799][338]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.03.16-19.13.49:934][338]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0189 seconds. Added 3824 classes and 930 folders.
+[2022.03.16-19.13.49:935][338]Display: HotReload took  4.3s.
+[2022.03.16-19.13.50:761][364]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.16-19.13.50:767][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.16-19.13.50:767][364]PIE: New page: PIE session: Main (Mar 17, 2022, 1:13:50 AM)
+[2022.03.16-19.13.50:768][364]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.13.50:773][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004925s)
+[2022.03.16-19.13.50:775][364]LogAIModule: Creating AISystem for world Main
+[2022.03.16-19.13.50:776][364]LogPlayLevel: PIE: World Init took: (0.003161s)
+[2022.03.16-19.13.50:776][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.008557s)
+[2022.03.16-19.13.50:852][364]LogUObjectHash: Compacting FUObjectHashTables data took   4.54ms
+[2022.03.16-19.13.50:855][364]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2022.03.16-19.13.50:855][364]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.16-19.13.50:855][364]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.16-19.13.50:855][364]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.16-19.13.50:855][364]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.16-19.13.50:855][364]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.16-19.13.50:855][364]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.16-19.13.50:855][364]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.16-19.13.50:855][364]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.16-19.13.50:856][364]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.16-19.13.50:856][364]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.16-19.13.50:856][364]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.16-19.13.50:856][364]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.16-19.13.50:861][364]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.16-19.13.50:861][364]LogAudioMixer: Display: 1: FrontRight
+[2022.03.16-19.13.50:869][364]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.16-19.13.50:870][364]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.16-19.13.50:870][364]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.16-19.13.50:870][364]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.16-19.13.50:870][364]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.16-19.13.50:870][364]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.16-19.13.50:870][364]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.16-19.13.50:871][364]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.16-19.13.50:871][364]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.16-19.13.50:871][364]LogInit: FAudioDevice initialized.
+[2022.03.16-19.13.50:872][364]LogAudio: Display: Audio Device (ID: 37) registered with world 'Main'.
+[2022.03.16-19.13.50:878][364]LogLoad: Game class is 'GameModeBase'
+[2022.03.16-19.13.50:880][364]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.03.16-22.13.50
+[2022.03.16-19.13.50:881][364]LogWorld: Bringing up level for play took: 0.001260
+[2022.03.16-19.13.50:881][364]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2022.03.16-19.13.50:883][364]PIE: Server logged in
+[2022.03.16-19.13.50:884][364]PIE: Play in editor total start time 0.118 seconds.
+[2022.03.16-19.14.05:492][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.14.05:492][223]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.14.05:492][223]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.03.16-19.14.05:493][223]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.14.05:507][223]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.16-19.14.05:579][223]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.14.05:600][223]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.16-19.14.05:602][223]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.14.05:603][223]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.14.05:605][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.14.05:628][223]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2022.03.16-19.14.05:696][224]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2022.03.16-19.14.07:818][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.03.16-19.14.07:840][342]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2022.03.16-19.14.07:852][342]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Main59710B414135804FB78146B427557D05.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main.umap'
+[2022.03.16-19.14.07:858][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2022.03.16-19.14.07:870][342]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Main_BuiltDataDC67E929408752F6E408D399040A3C61.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2022.03.16-19.14.07:886][342]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.16-19.14.07:886][342]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2022.03.16-19.14.07:886][342]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2022.03.16-19.22.15:062][967]Candidate modules for hot reload:
+[2022.03.16-19.22.15:062][967]  ToonTanks
+[2022.03.16-19.22.15:062][967]Launching UnrealBuildTool... [F:/EpicOyunlar/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,8361 ToonTanksEditor Win64 Development -Project="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/ToonTanks.uproject" "D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2022.03.16-19.22.15:110][967]Warning: Starting HotReload took  0.1s.
+[2022.03.16-19.22.18:410][103]CompilerResultsLog: New page: Compilation - Mar 17, 2022, 1:22:18 AM
+[2022.03.16-19.22.18:410][103]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitRepos\UE4Repos\ToonTanks).
+[2022.03.16-19.22.18:410][103]CompilerResultsLog: Building ToonTanksEditor...
+[2022.03.16-19.22.18:410][103]CompilerResultsLog: Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.16-19.22.18:410][103]CompilerResultsLog: Building 4 actions with 12 processes...
+[2022.03.16-19.22.18:410][103]CompilerResultsLog:   [1/4] Tank.cpp
+[2022.03.16-19.22.18:410][103]CompilerResultsLog:   [2/4] UE4Editor-ToonTanks-8361.lib
+[2022.03.16-19.22.18:410][103]CompilerResultsLog:      D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-8361.lib kitapl??? ve D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-8361.exp nesnesi olu?turuluyor
+[2022.03.16-19.22.18:410][103]CompilerResultsLog:   [3/4] UE4Editor-ToonTanks-8361.dll
+[2022.03.16-19.22.18:410][103]CompilerResultsLog:      D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-8361.suppressed.lib kitapl??? ve D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-8361.suppressed.exp nesnesi olu?turuluyor
+[2022.03.16-19.22.18:410][103]CompilerResultsLog:   [4/4] ToonTanksEditor.target
+[2022.03.16-19.22.18:410][103]CompilerResultsLog: Total time in Parallel executor: 2.31 seconds
+[2022.03.16-19.22.18:410][103]CompilerResultsLog: Total execution time: 3.21 seconds
+[2022.03.16-19.22.18:410][103]LogMainFrame: MainFrame: Module compiling took 3.353 seconds
+[2022.03.16-19.22.18:451][103]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ToonTanks' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2022.03.16-19.22.18:456][103]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.03.16-19.22.18:563][103]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0095 seconds. Added 3824 classes and 930 folders.
+[2022.03.16-19.22.18:563][103]Display: HotReload took  3.5s.
+[2022.03.16-19.22.39:318][296]BlueprintLog: New page: Compile BP_Tank
+[2022.03.16-19.22.39:597][296]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2022.03.16-19.22.44:854][601]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.16-19.22.44:863][601]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.16-19.22.44:864][601]PIE: New page: PIE session: Main (Mar 17, 2022, 1:22:44 AM)
+[2022.03.16-19.22.44:864][601]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.22.44:869][601]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004289s)
+[2022.03.16-19.22.44:870][601]LogAIModule: Creating AISystem for world Main
+[2022.03.16-19.22.44:870][601]LogPlayLevel: PIE: World Init took: (0.001265s)
+[2022.03.16-19.22.44:870][601]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.005784s)
+[2022.03.16-19.22.44:923][601]LogUObjectHash: Compacting FUObjectHashTables data took   4.38ms
+[2022.03.16-19.22.44:924][601]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2022.03.16-19.22.44:924][601]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.16-19.22.44:924][601]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.16-19.22.44:924][601]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.16-19.22.44:924][601]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.16-19.22.44:924][601]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.16-19.22.44:924][601]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.16-19.22.44:924][601]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.16-19.22.44:924][601]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.16-19.22.44:924][601]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.16-19.22.44:924][601]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.16-19.22.44:924][601]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.16-19.22.44:924][601]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.16-19.22.44:929][601]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.16-19.22.44:929][601]LogAudioMixer: Display: 1: FrontRight
+[2022.03.16-19.22.44:938][601]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.16-19.22.44:938][601]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.16-19.22.44:938][601]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.16-19.22.44:938][601]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.16-19.22.44:939][601]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.16-19.22.44:939][601]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.16-19.22.44:939][601]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.16-19.22.44:940][601]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.16-19.22.44:940][601]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.16-19.22.44:940][601]LogInit: FAudioDevice initialized.
+[2022.03.16-19.22.44:940][601]LogAudio: Display: Audio Device (ID: 38) registered with world 'Main'.
+[2022.03.16-19.22.44:952][601]LogLoad: Game class is 'GameModeBase'
+[2022.03.16-19.22.44:955][601]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.03.16-22.22.44
+[2022.03.16-19.22.44:955][601]LogWorld: Bringing up level for play took: 0.001579
+[2022.03.16-19.22.44:955][601]LogOnline: OSS: Creating online subsystem instance for: :Context_42
+[2022.03.16-19.22.44:957][601]PIE: Server logged in
+[2022.03.16-19.22.44:958][601]PIE: Play in editor total start time 0.097 seconds.
+[2022.03.16-19.22.51:579][995]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.22.51:579][995]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.22.51:579][995]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.03.16-19.22.51:580][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.22.51:589][995]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.16-19.22.51:655][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.22.51:678][995]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.16-19.22.51:678][995]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.22.51:680][995]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.22.51:682][995]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.22.51:686][995]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2022.03.16-19.22.51:759][996]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2022.03.16-19.23.23:855][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tank" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset" SILENT=true
+[2022.03.16-19.23.23:869][791]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/BP_Tank20FE7F36456A2C9118F6E0A1AEF95FCC.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset'
+[2022.03.16-19.23.23:883][791]AssetCheck: New page: Asset Save: BP_Tank
+[2022.03.16-19.23.23:883][791]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Tank.BP_Tank
+[2022.03.16-19.23.25:413][882]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.16-19.23.25:419][882]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.03.16-19.23.25:420][882]LogPlayLevel: [PlayLevel] Compiling BP_Tank before play...
+[2022.03.16-19.23.25:597][882]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2022.03.16-19.23.25:601][882]LogPlayLevel: PlayLevel: Blueprint regeneration took 182 ms (1 blueprints)
+[2022.03.16-19.23.25:601][882]PIE: New page: PIE session: Main (Mar 17, 2022, 1:23:25 AM)
+[2022.03.16-19.23.25:601][882]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.23.25:604][882]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002746s)
+[2022.03.16-19.23.25:605][882]LogAIModule: Creating AISystem for world Main
+[2022.03.16-19.23.25:606][882]LogPlayLevel: PIE: World Init took: (0.000876s)
+[2022.03.16-19.23.25:606][882]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003724s)
+[2022.03.16-19.23.25:629][882]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2022.03.16-19.23.25:629][882]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2022.03.16-19.23.25:629][882]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.16-19.23.25:629][882]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.16-19.23.25:629][882]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.16-19.23.25:629][882]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.16-19.23.25:629][882]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.16-19.23.25:629][882]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.16-19.23.25:629][882]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.16-19.23.25:630][882]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.16-19.23.25:630][882]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.16-19.23.25:630][882]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.16-19.23.25:630][882]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.16-19.23.25:630][882]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.16-19.23.25:634][882]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.16-19.23.25:634][882]LogAudioMixer: Display: 1: FrontRight
+[2022.03.16-19.23.25:642][882]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.16-19.23.25:643][882]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.16-19.23.25:643][882]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.16-19.23.25:643][882]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.16-19.23.25:643][882]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.16-19.23.25:643][882]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.16-19.23.25:643][882]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.16-19.23.25:644][882]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.16-19.23.25:644][882]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.16-19.23.25:644][882]LogInit: FAudioDevice initialized.
+[2022.03.16-19.23.25:644][882]LogAudio: Display: Audio Device (ID: 39) registered with world 'Main'.
+[2022.03.16-19.23.25:654][882]LogLoad: Game class is 'GameModeBase'
+[2022.03.16-19.23.25:655][882]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.03.16-22.23.25
+[2022.03.16-19.23.25:656][882]LogWorld: Bringing up level for play took: 0.001324
+[2022.03.16-19.23.25:656][882]LogOnline: OSS: Creating online subsystem instance for: :Context_43
+[2022.03.16-19.23.25:658][882]PIE: Server logged in
+[2022.03.16-19.23.25:659][882]PIE: Play in editor total start time 0.241 seconds.
+[2022.03.16-19.23.27:048][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.23.27:048][961]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.23.27:048][961]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.03.16-19.23.27:048][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.23.27:058][961]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.16-19.23.27:118][961]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.23.27:140][961]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.23.27:140][961]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.23.27:141][961]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.23.27:146][961]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2022.03.16-19.23.27:212][962]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2022.03.16-19.23.43:425][105]Candidate modules for hot reload:
+[2022.03.16-19.23.43:426][105]  ToonTanks
+[2022.03.16-19.23.43:426][105]Launching UnrealBuildTool... [F:/EpicOyunlar/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,4373 ToonTanksEditor Win64 Development -Project="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/ToonTanks.uproject" "D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2022.03.16-19.23.43:430][105]Warning: Starting HotReload took  0.0s.
+[2022.03.16-19.23.46:262][186]CompilerResultsLog: New page: Compilation - Mar 17, 2022, 1:23:46 AM
+[2022.03.16-19.23.46:262][186]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitRepos\UE4Repos\ToonTanks).
+[2022.03.16-19.23.46:262][186]CompilerResultsLog: Building ToonTanksEditor...
+[2022.03.16-19.23.46:262][186]CompilerResultsLog: Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.16-19.23.46:262][186]CompilerResultsLog: Building 3 actions with 12 processes...
+[2022.03.16-19.23.46:262][186]CompilerResultsLog:   [1/3] UE4Editor-ToonTanks-4373.lib
+[2022.03.16-19.23.46:262][186]CompilerResultsLog:      D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-4373.lib kitapl??? ve D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-4373.exp nesnesi olu?turuluyor
+[2022.03.16-19.23.46:262][186]CompilerResultsLog:   [2/3] UE4Editor-ToonTanks-4373.dll
+[2022.03.16-19.23.46:262][186]CompilerResultsLog:      D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-4373.suppressed.lib kitapl??? ve D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-4373.suppressed.exp nesnesi olu?turuluyor
+[2022.03.16-19.23.46:262][186]CompilerResultsLog:   [3/3] ToonTanksEditor.target
+[2022.03.16-19.23.46:262][186]CompilerResultsLog: Total time in Parallel executor: 1.73 seconds
+[2022.03.16-19.23.46:262][186]CompilerResultsLog: Total execution time: 2.59 seconds
+[2022.03.16-19.23.46:262][186]LogMainFrame: MainFrame: Module compiling took 2.840 seconds
+[2022.03.16-19.23.46:301][186]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ToonTanks' in 0.0005 seconds. Added 2 classes and 2 folders.
+[2022.03.16-19.23.46:308][186]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.03.16-19.23.46:422][186]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0090 seconds. Added 3824 classes and 930 folders.
+[2022.03.16-19.23.46:422][186]Display: HotReload took  3.0s.
+[2022.03.16-19.23.48:603][192]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.16-19.23.48:608][192]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.16-19.23.48:608][192]PIE: New page: PIE session: Main (Mar 17, 2022, 1:23:48 AM)
+[2022.03.16-19.23.48:608][192]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.23.48:611][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002753s)
+[2022.03.16-19.23.48:612][192]LogAIModule: Creating AISystem for world Main
+[2022.03.16-19.23.48:612][192]LogPlayLevel: PIE: World Init took: (0.001061s)
+[2022.03.16-19.23.48:612][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.004040s)
+[2022.03.16-19.23.48:675][192]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2022.03.16-19.23.48:679][192]LogAudio: Display: Creating Audio Device:                 Id: 40, Scope: Unique, Realtime: True
+[2022.03.16-19.23.48:679][192]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.16-19.23.48:679][192]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.16-19.23.48:679][192]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.16-19.23.48:679][192]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.16-19.23.48:679][192]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.16-19.23.48:679][192]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.16-19.23.48:679][192]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.16-19.23.48:679][192]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.16-19.23.48:680][192]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.16-19.23.48:680][192]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.16-19.23.48:680][192]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.16-19.23.48:680][192]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.16-19.23.48:684][192]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.16-19.23.48:684][192]LogAudioMixer: Display: 1: FrontRight
+[2022.03.16-19.23.48:691][192]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.16-19.23.48:691][192]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.16-19.23.48:691][192]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.16-19.23.48:691][192]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.16-19.23.48:692][192]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.16-19.23.48:692][192]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.16-19.23.48:692][192]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.16-19.23.48:693][192]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.16-19.23.48:693][192]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.16-19.23.48:693][192]LogInit: FAudioDevice initialized.
+[2022.03.16-19.23.48:693][192]LogAudio: Display: Audio Device (ID: 40) registered with world 'Main'.
+[2022.03.16-19.23.48:705][192]LogLoad: Game class is 'GameModeBase'
+[2022.03.16-19.23.48:707][192]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.03.16-22.23.48
+[2022.03.16-19.23.48:708][192]LogWorld: Bringing up level for play took: 0.001913
+[2022.03.16-19.23.48:708][192]LogOnline: OSS: Creating online subsystem instance for: :Context_44
+[2022.03.16-19.23.48:710][192]PIE: Server logged in
+[2022.03.16-19.23.48:711][192]PIE: Play in editor total start time 0.103 seconds.
+[2022.03.16-19.23.52:489][416]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.23.52:489][416]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.23.52:489][416]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.03.16-19.23.52:489][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.23.52:505][416]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.16-19.23.52:571][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.23.52:595][416]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.23.52:596][416]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.23.52:597][416]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.23.52:624][416]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2022.03.16-19.23.52:694][417]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2022.03.16-19.23.55:829][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tank" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset" SILENT=true
+[2022.03.16-19.23.55:853][599]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/BP_Tank7DF7FFE54AB628A4EEAF5C83E49B48E0.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset'
+[2022.03.16-19.23.55:867][599]AssetCheck: New page: Asset Save: BP_Tank
+[2022.03.16-19.23.55:867][599]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Tank.BP_Tank
+[2022.03.16-19.23.57:151][675]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.16-19.23.57:156][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.16-19.23.57:156][675]PIE: New page: PIE session: Main (Mar 17, 2022, 1:23:57 AM)
+[2022.03.16-19.23.57:178][675]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.23.57:182][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003352s)
+[2022.03.16-19.23.57:183][675]LogAIModule: Creating AISystem for world Main
+[2022.03.16-19.23.57:183][675]LogPlayLevel: PIE: World Init took: (0.001029s)
+[2022.03.16-19.23.57:183][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.004714s)
+[2022.03.16-19.23.57:205][675]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2022.03.16-19.23.57:207][675]LogAudio: Display: Creating Audio Device:                 Id: 41, Scope: Unique, Realtime: True
+[2022.03.16-19.23.57:207][675]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.16-19.23.57:207][675]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.16-19.23.57:207][675]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.16-19.23.57:207][675]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.16-19.23.57:207][675]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.16-19.23.57:207][675]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.16-19.23.57:207][675]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.16-19.23.57:207][675]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.16-19.23.57:209][675]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.16-19.23.57:209][675]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.16-19.23.57:209][675]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.16-19.23.57:209][675]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.16-19.23.57:212][675]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.16-19.23.57:212][675]LogAudioMixer: Display: 1: FrontRight
+[2022.03.16-19.23.57:221][675]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.16-19.23.57:222][675]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.16-19.23.57:222][675]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.16-19.23.57:222][675]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.16-19.23.57:222][675]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.16-19.23.57:222][675]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.16-19.23.57:222][675]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.16-19.23.57:223][675]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.16-19.23.57:223][675]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.16-19.23.57:223][675]LogInit: FAudioDevice initialized.
+[2022.03.16-19.23.57:223][675]LogAudio: Display: Audio Device (ID: 41) registered with world 'Main'.
+[2022.03.16-19.23.57:232][675]LogLoad: Game class is 'GameModeBase'
+[2022.03.16-19.23.57:234][675]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.03.16-22.23.57
+[2022.03.16-19.23.57:234][675]LogWorld: Bringing up level for play took: 0.001161
+[2022.03.16-19.23.57:235][675]LogOnline: OSS: Creating online subsystem instance for: :Context_45
+[2022.03.16-19.23.57:236][675]PIE: Server logged in
+[2022.03.16-19.23.57:237][675]PIE: Play in editor total start time 0.082 seconds.
+[2022.03.16-19.24.00:658][877]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.24.00:658][877]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.24.00:658][877]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.03.16-19.24.00:659][877]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.24.00:667][877]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.16-19.24.00:730][877]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.24.00:752][877]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.24.00:752][877]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.24.00:753][877]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.24.00:759][877]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2022.03.16-19.24.00:827][878]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2022.03.16-19.24.24:875][306]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2022.03.16-19.24.24:878][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.03.16-19.24.24:889][306]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Main_Auto608873B8F4EE3DA6C1DB4928209E2BC30.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto6.umap'
+[2022.03.16-19.24.24:890][306]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.045
+[2022.03.16-19.24.24:890][306]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.045
+[2022.03.16-19.25.08:961][893]LogRenderer: Reallocating scene render targets to support 1136x884 Format 10 NumSamples 1 (Frame:1).
+[2022.03.16-19.25.26:255][893]LogEditorViewport: Clicking on Actor (LMB): BP_Tank_C (BP_Tank)
+[2022.03.16-19.25.32:072][222]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.16-19.25.32:077][222]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.16-19.25.32:078][222]PIE: New page: PIE session: Main (Mar 17, 2022, 1:25:32 AM)
+[2022.03.16-19.25.32:078][222]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.25.32:081][222]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003366s)
+[2022.03.16-19.25.32:082][222]LogAIModule: Creating AISystem for world Main
+[2022.03.16-19.25.32:083][222]LogPlayLevel: PIE: World Init took: (0.001742s)
+[2022.03.16-19.25.32:083][222]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.005317s)
+[2022.03.16-19.25.32:109][222]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2022.03.16-19.25.32:111][222]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2022.03.16-19.25.32:111][222]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.16-19.25.32:111][222]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.16-19.25.32:111][222]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.16-19.25.32:111][222]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.16-19.25.32:111][222]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.16-19.25.32:111][222]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.16-19.25.32:111][222]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.16-19.25.32:111][222]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.16-19.25.32:111][222]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.16-19.25.32:111][222]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.16-19.25.32:111][222]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.16-19.25.32:111][222]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.16-19.25.32:203][222]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.16-19.25.32:203][222]LogAudioMixer: Display: 1: FrontRight
+[2022.03.16-19.25.32:212][222]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.16-19.25.32:212][222]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.16-19.25.32:212][222]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.16-19.25.32:212][222]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.16-19.25.32:212][222]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.16-19.25.32:212][222]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.16-19.25.32:213][222]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.16-19.25.32:215][222]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.16-19.25.32:215][222]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.16-19.25.32:215][222]LogInit: FAudioDevice initialized.
+[2022.03.16-19.25.32:215][222]LogAudio: Display: Audio Device (ID: 42) registered with world 'Main'.
+[2022.03.16-19.25.32:224][222]LogLoad: Game class is 'GameModeBase'
+[2022.03.16-19.25.32:226][222]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.03.16-22.25.32
+[2022.03.16-19.25.32:226][222]LogWorld: Bringing up level for play took: 0.001296
+[2022.03.16-19.25.32:227][222]LogOnline: OSS: Creating online subsystem instance for: :Context_46
+[2022.03.16-19.25.32:229][222]PIE: Server logged in
+[2022.03.16-19.25.32:230][222]PIE: Play in editor total start time 0.154 seconds.
+[2022.03.16-19.25.43:758][904]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.25.43:758][904]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.25.43:758][904]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.03.16-19.25.43:759][904]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.25.43:872][904]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.16-19.25.43:937][904]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.25.43:962][904]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.25.43:962][904]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.25.43:963][904]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.25.43:970][904]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2022.03.16-19.25.44:040][905]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2022.03.16-19.25.51:764][355]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Tank" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset" SILENT=true
+[2022.03.16-19.25.51:777][355]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/BP_TankC6DBB749413F36AC981165A73F10D64E.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Blueprints/BP_Tank.uasset'
+[2022.03.16-19.25.51:791][355]AssetCheck: New page: Asset Save: BP_Tank
+[2022.03.16-19.25.51:791][355]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/BP_Tank.BP_Tank
+[2022.03.16-19.25.52:970][424]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.16-19.25.52:976][424]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.03.16-19.25.52:977][424]LogPlayLevel: [PlayLevel] Compiling BP_Tank before play...
+[2022.03.16-19.25.53:178][424]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2022.03.16-19.25.53:181][424]LogPlayLevel: PlayLevel: Blueprint regeneration took 204 ms (1 blueprints)
+[2022.03.16-19.25.53:181][424]PIE: New page: PIE session: Main (Mar 17, 2022, 1:25:53 AM)
+[2022.03.16-19.25.53:181][424]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.25.53:184][424]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003569s)
+[2022.03.16-19.25.53:186][424]LogAIModule: Creating AISystem for world Main
+[2022.03.16-19.25.53:186][424]LogPlayLevel: PIE: World Init took: (0.001266s)
+[2022.03.16-19.25.53:186][424]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.005024s)
+[2022.03.16-19.25.53:211][424]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2022.03.16-19.25.53:212][424]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2022.03.16-19.25.53:212][424]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.16-19.25.53:212][424]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.16-19.25.53:212][424]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.16-19.25.53:212][424]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.16-19.25.53:212][424]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.16-19.25.53:212][424]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.16-19.25.53:212][424]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.16-19.25.53:212][424]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.16-19.25.53:212][424]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.16-19.25.53:212][424]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.16-19.25.53:212][424]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.16-19.25.53:212][424]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.16-19.25.53:216][424]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.16-19.25.53:216][424]LogAudioMixer: Display: 1: FrontRight
+[2022.03.16-19.25.53:225][424]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.16-19.25.53:225][424]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.16-19.25.53:225][424]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.16-19.25.53:225][424]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.16-19.25.53:226][424]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.16-19.25.53:226][424]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.16-19.25.53:226][424]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.16-19.25.53:227][424]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.16-19.25.53:227][424]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.16-19.25.53:227][424]LogInit: FAudioDevice initialized.
+[2022.03.16-19.25.53:227][424]LogAudio: Display: Audio Device (ID: 43) registered with world 'Main'.
+[2022.03.16-19.25.53:232][424]LogLoad: Game class is 'GameModeBase'
+[2022.03.16-19.25.53:233][424]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.03.16-22.25.53
+[2022.03.16-19.25.53:234][424]LogWorld: Bringing up level for play took: 0.001123
+[2022.03.16-19.25.53:234][424]LogOnline: OSS: Creating online subsystem instance for: :Context_47
+[2022.03.16-19.25.53:235][424]PIE: Server logged in
+[2022.03.16-19.25.53:236][424]PIE: Play in editor total start time 0.262 seconds.
+[2022.03.16-19.26.06:581][218]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.26.06:581][218]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.26.06:582][218]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.03.16-19.26.06:582][218]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.26.06:591][218]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.16-19.26.06:654][218]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.26.06:677][218]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.26.06:677][218]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.26.06:678][218]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.26.06:684][218]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2022.03.16-19.26.06:756][219]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2022.03.16-19.26.07:968][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.03.16-19.26.07:998][287]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2022.03.16-19.26.08:009][287]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Main03685E434EFCCC6EB6B738955CAB095B.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main.umap'
+[2022.03.16-19.26.08:016][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2022.03.16-19.26.08:030][287]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Main_BuiltData5575FAF443A06C3ABF8256B7AD22C005.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2022.03.16-19.26.08:046][287]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.16-19.26.08:046][287]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2022.03.16-19.26.08:046][287]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2022.03.16-19.30.14:897][886]Candidate modules for hot reload:
+[2022.03.16-19.30.14:897][886]  ToonTanks
+[2022.03.16-19.30.14:897][886]Launching UnrealBuildTool... [F:/EpicOyunlar/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,1337 ToonTanksEditor Win64 Development -Project="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/ToonTanks.uproject" "D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2022.03.16-19.30.14:901][886]Warning: Starting HotReload took  0.0s.
+[2022.03.16-19.30.18:859][997]CompilerResultsLog: New page: Compilation - Mar 17, 2022, 1:30:18 AM
+[2022.03.16-19.30.18:859][997]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitRepos\UE4Repos\ToonTanks).
+[2022.03.16-19.30.18:859][997]CompilerResultsLog: Building ToonTanksEditor...
+[2022.03.16-19.30.18:859][997]CompilerResultsLog: Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.16-19.30.18:859][997]CompilerResultsLog: Building 4 actions with 12 processes...
+[2022.03.16-19.30.18:859][997]CompilerResultsLog:   [1/4] Tank.cpp
+[2022.03.16-19.30.18:859][997]CompilerResultsLog:   [2/4] UE4Editor-ToonTanks-1337.lib
+[2022.03.16-19.30.18:859][997]CompilerResultsLog:      D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1337.lib kitapl??? ve D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1337.exp nesnesi olu?turuluyor
+[2022.03.16-19.30.18:859][997]CompilerResultsLog:   [3/4] UE4Editor-ToonTanks-1337.dll
+[2022.03.16-19.30.18:859][997]CompilerResultsLog:      D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1337.suppressed.lib kitapl??? ve D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1337.suppressed.exp nesnesi olu?turuluyor
+[2022.03.16-19.30.18:859][997]CompilerResultsLog:   [4/4] ToonTanksEditor.target
+[2022.03.16-19.30.18:859][997]CompilerResultsLog: Total time in Parallel executor: 2.19 seconds
+[2022.03.16-19.30.18:859][997]CompilerResultsLog: Total execution time: 3.86 seconds
+[2022.03.16-19.30.18:859][997]LogMainFrame: MainFrame: Module compiling took 3.966 seconds
+[2022.03.16-19.30.18:905][997]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ToonTanks' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2022.03.16-19.30.18:913][997]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.03.16-19.30.19:030][997]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0094 seconds. Added 3824 classes and 930 folders.
+[2022.03.16-19.30.19:030][997]Display: HotReload took  4.1s.
+[2022.03.16-19.30.20:114][ 42]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.16-19.30.20:118][ 42]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.16-19.30.20:118][ 42]PIE: New page: PIE session: Main (Mar 17, 2022, 1:30:20 AM)
+[2022.03.16-19.30.20:118][ 42]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.30.20:122][ 42]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003750s)
+[2022.03.16-19.30.20:123][ 42]LogAIModule: Creating AISystem for world Main
+[2022.03.16-19.30.20:124][ 42]LogPlayLevel: PIE: World Init took: (0.001314s)
+[2022.03.16-19.30.20:124][ 42]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.005488s)
+[2022.03.16-19.30.20:204][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2022.03.16-19.30.20:207][ 42]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2022.03.16-19.30.20:207][ 42]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.16-19.30.20:207][ 42]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.16-19.30.20:207][ 42]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.16-19.30.20:207][ 42]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.16-19.30.20:207][ 42]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.16-19.30.20:207][ 42]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.16-19.30.20:207][ 42]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.16-19.30.20:207][ 42]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.16-19.30.20:209][ 42]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.16-19.30.20:209][ 42]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.16-19.30.20:209][ 42]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.16-19.30.20:209][ 42]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.16-19.30.20:213][ 42]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.16-19.30.20:213][ 42]LogAudioMixer: Display: 1: FrontRight
+[2022.03.16-19.30.20:221][ 42]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.16-19.30.20:222][ 42]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.16-19.30.20:222][ 42]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.16-19.30.20:222][ 42]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.16-19.30.20:222][ 42]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.16-19.30.20:222][ 42]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.16-19.30.20:222][ 42]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.16-19.30.20:223][ 42]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.16-19.30.20:223][ 42]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.16-19.30.20:223][ 42]LogInit: FAudioDevice initialized.
+[2022.03.16-19.30.20:223][ 42]LogAudio: Display: Audio Device (ID: 44) registered with world 'Main'.
+[2022.03.16-19.30.20:230][ 42]LogLoad: Game class is 'GameModeBase'
+[2022.03.16-19.30.20:231][ 42]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.03.16-22.30.20
+[2022.03.16-19.30.20:232][ 42]LogWorld: Bringing up level for play took: 0.001176
+[2022.03.16-19.30.20:232][ 42]LogOnline: OSS: Creating online subsystem instance for: :Context_48
+[2022.03.16-19.30.20:234][ 42]PIE: Server logged in
+[2022.03.16-19.30.20:235][ 42]PIE: Play in editor total start time 0.117 seconds.
+[2022.03.16-19.30.27:158][450]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.30.27:158][450]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.30.27:158][450]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.03.16-19.30.27:158][450]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.30.27:167][450]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.16-19.30.27:234][450]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.30.27:257][450]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.16-19.30.27:261][450]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.30.27:262][450]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.30.27:264][450]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.30.27:288][450]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2022.03.16-19.30.27:360][451]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2022.03.16-19.30.32:138][594]Candidate modules for hot reload:
+[2022.03.16-19.30.32:138][594]  ToonTanks
+[2022.03.16-19.30.32:139][594]Launching UnrealBuildTool... [F:/EpicOyunlar/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,6574 ToonTanksEditor Win64 Development -Project="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/ToonTanks.uproject" "D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2022.03.16-19.30.32:145][594]Warning: Starting HotReload took  0.0s.
+[2022.03.16-19.30.35:434][776]CompilerResultsLog: New page: Compilation - Mar 17, 2022, 1:30:35 AM
+[2022.03.16-19.30.35:435][776]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\GitRepos\UE4Repos\ToonTanks).
+[2022.03.16-19.30.35:435][776]CompilerResultsLog: Building ToonTanksEditor...
+[2022.03.16-19.30.35:435][776]CompilerResultsLog: Using Visual Studio 2019 14.29.30140 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.16-19.30.35:435][776]CompilerResultsLog: Building 4 actions with 12 processes...
+[2022.03.16-19.30.35:435][776]CompilerResultsLog:   [1/4] Tank.cpp
+[2022.03.16-19.30.35:435][776]CompilerResultsLog:   [2/4] UE4Editor-ToonTanks-6574.lib
+[2022.03.16-19.30.35:435][776]CompilerResultsLog:      D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6574.lib kitapl??? ve D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6574.exp nesnesi olu?turuluyor
+[2022.03.16-19.30.35:435][776]CompilerResultsLog:   [3/4] UE4Editor-ToonTanks-6574.dll
+[2022.03.16-19.30.35:435][776]CompilerResultsLog:      D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6574.suppressed.lib kitapl??? ve D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6574.suppressed.exp nesnesi olu?turuluyor
+[2022.03.16-19.30.35:435][776]CompilerResultsLog:   [4/4] ToonTanksEditor.target
+[2022.03.16-19.30.35:435][776]CompilerResultsLog: Total time in Parallel executor: 2.24 seconds
+[2022.03.16-19.30.35:435][776]CompilerResultsLog: Total execution time: 3.19 seconds
+[2022.03.16-19.30.35:435][776]LogMainFrame: MainFrame: Module compiling took 3.299 seconds
+[2022.03.16-19.30.35:468][776]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ToonTanks' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2022.03.16-19.30.35:472][776]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.03.16-19.30.35:565][776]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0097 seconds. Added 3824 classes and 930 folders.
+[2022.03.16-19.30.35:565][776]Display: HotReload took  3.4s.
+[2022.03.16-19.36.56:047][181]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.16-19.36.56:053][181]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.16-19.36.56:053][181]PIE: New page: PIE session: Main (Mar 17, 2022, 1:36:56 AM)
+[2022.03.16-19.36.56:077][181]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.36.56:081][181]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003735s)
+[2022.03.16-19.36.56:082][181]LogAIModule: Creating AISystem for world Main
+[2022.03.16-19.36.56:082][181]LogPlayLevel: PIE: World Init took: (0.001150s)
+[2022.03.16-19.36.56:083][181]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.005087s)
+[2022.03.16-19.36.56:152][181]LogUObjectHash: Compacting FUObjectHashTables data took   4.54ms
+[2022.03.16-19.36.56:154][181]LogAudio: Display: Creating Audio Device:                 Id: 45, Scope: Unique, Realtime: True
+[2022.03.16-19.36.56:154][181]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.16-19.36.56:154][181]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.16-19.36.56:154][181]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.16-19.36.56:154][181]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.16-19.36.56:154][181]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.16-19.36.56:154][181]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.16-19.36.56:154][181]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.16-19.36.56:154][181]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.16-19.36.56:155][181]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.16-19.36.56:155][181]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.16-19.36.56:155][181]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.16-19.36.56:155][181]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.16-19.36.56:163][181]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.16-19.36.56:163][181]LogAudioMixer: Display: 1: FrontRight
+[2022.03.16-19.36.56:171][181]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.16-19.36.56:172][181]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.16-19.36.56:172][181]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.16-19.36.56:172][181]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.16-19.36.56:173][181]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.16-19.36.56:173][181]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.16-19.36.56:173][181]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.16-19.36.56:174][181]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.16-19.36.56:174][181]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.16-19.36.56:174][181]LogInit: FAudioDevice initialized.
+[2022.03.16-19.36.56:174][181]LogAudio: Display: Audio Device (ID: 45) registered with world 'Main'.
+[2022.03.16-19.36.56:184][181]LogLoad: Game class is 'GameModeBase'
+[2022.03.16-19.36.56:186][181]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.03.16-22.36.56
+[2022.03.16-19.36.56:187][181]LogWorld: Bringing up level for play took: 0.001549
+[2022.03.16-19.36.56:187][181]LogOnline: OSS: Creating online subsystem instance for: :Context_49
+[2022.03.16-19.36.56:188][181]PIE: Server logged in
+[2022.03.16-19.36.56:189][181]PIE: Play in editor total start time 0.138 seconds.
+[2022.03.16-19.36.59:348][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.36.59:348][368]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.36.59:348][368]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.03.16-19.36.59:349][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.36.59:361][368]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.16-19.36.59:425][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.36.59:447][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.36.59:447][368]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.36.59:449][368]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.36.59:463][368]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2022.03.16-19.36.59:534][369]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2022.03.16-19.37.02:784][557]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.16-19.37.02:787][557]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.16-19.37.02:787][557]PIE: New page: PIE session: Main (Mar 17, 2022, 1:37:02 AM)
+[2022.03.16-19.37.02:788][557]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.37.02:792][557]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004160s)
+[2022.03.16-19.37.02:794][557]LogAIModule: Creating AISystem for world Main
+[2022.03.16-19.37.02:794][557]LogPlayLevel: PIE: World Init took: (0.001450s)
+[2022.03.16-19.37.02:794][557]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.005833s)
+[2022.03.16-19.37.02:819][557]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2022.03.16-19.37.02:821][557]LogAudio: Display: Creating Audio Device:                 Id: 46, Scope: Unique, Realtime: True
+[2022.03.16-19.37.02:821][557]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.16-19.37.02:821][557]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.16-19.37.02:821][557]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.16-19.37.02:821][557]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.16-19.37.02:821][557]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.16-19.37.02:821][557]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.16-19.37.02:821][557]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.16-19.37.02:821][557]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.16-19.37.02:821][557]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.16-19.37.02:821][557]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.16-19.37.02:821][557]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.16-19.37.02:821][557]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.16-19.37.02:826][557]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.16-19.37.02:826][557]LogAudioMixer: Display: 1: FrontRight
+[2022.03.16-19.37.02:841][557]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.16-19.37.02:842][557]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.16-19.37.02:842][557]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.16-19.37.02:842][557]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.16-19.37.02:842][557]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.16-19.37.02:842][557]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.16-19.37.02:842][557]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.16-19.37.02:843][557]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.16-19.37.02:843][557]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.16-19.37.02:843][557]LogInit: FAudioDevice initialized.
+[2022.03.16-19.37.02:843][557]LogAudio: Display: Audio Device (ID: 46) registered with world 'Main'.
+[2022.03.16-19.37.02:850][557]LogLoad: Game class is 'GameModeBase'
+[2022.03.16-19.37.02:852][557]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.03.16-22.37.02
+[2022.03.16-19.37.02:852][557]LogWorld: Bringing up level for play took: 0.001417
+[2022.03.16-19.37.02:853][557]LogOnline: OSS: Creating online subsystem instance for: :Context_50
+[2022.03.16-19.37.02:855][557]PIE: Server logged in
+[2022.03.16-19.37.02:856][557]PIE: Play in editor total start time 0.069 seconds.
+[2022.03.16-19.37.13:699][823]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.37.13:699][823]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.37.13:699][823]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.03.16-19.37.13:699][823]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.37.13:710][823]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.16-19.37.13:777][823]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.37.13:801][823]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.37.13:801][823]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.37.13:803][823]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.37.13:809][823]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2022.03.16-19.37.13:887][824]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2022.03.16-19.37.18:778][110]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.16-19.37.18:785][110]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.16-19.37.18:785][110]PIE: New page: PIE session: Main (Mar 17, 2022, 1:37:18 AM)
+[2022.03.16-19.37.18:785][110]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.37.18:789][110]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003662s)
+[2022.03.16-19.37.18:790][110]LogAIModule: Creating AISystem for world Main
+[2022.03.16-19.37.18:790][110]LogPlayLevel: PIE: World Init took: (0.001743s)
+[2022.03.16-19.37.18:791][110]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.005700s)
+[2022.03.16-19.37.18:817][110]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2022.03.16-19.37.18:820][110]LogAudio: Display: Creating Audio Device:                 Id: 47, Scope: Unique, Realtime: True
+[2022.03.16-19.37.18:820][110]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.16-19.37.18:820][110]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.16-19.37.18:820][110]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.16-19.37.18:820][110]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.16-19.37.18:820][110]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.16-19.37.18:820][110]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.16-19.37.18:820][110]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.16-19.37.18:820][110]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.16-19.37.18:821][110]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.16-19.37.18:821][110]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.16-19.37.18:821][110]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.16-19.37.18:821][110]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.16-19.37.18:825][110]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.16-19.37.18:825][110]LogAudioMixer: Display: 1: FrontRight
+[2022.03.16-19.37.18:841][110]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.16-19.37.18:841][110]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.16-19.37.18:841][110]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.16-19.37.18:841][110]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.16-19.37.18:841][110]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.16-19.37.18:841][110]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.16-19.37.18:841][110]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.16-19.37.18:843][110]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.16-19.37.18:843][110]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.16-19.37.18:843][110]LogInit: FAudioDevice initialized.
+[2022.03.16-19.37.18:843][110]LogAudio: Display: Audio Device (ID: 47) registered with world 'Main'.
+[2022.03.16-19.37.18:854][110]LogLoad: Game class is 'GameModeBase'
+[2022.03.16-19.37.18:856][110]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.03.16-22.37.18
+[2022.03.16-19.37.18:856][110]LogWorld: Bringing up level for play took: 0.001072
+[2022.03.16-19.37.18:856][110]LogOnline: OSS: Creating online subsystem instance for: :Context_51
+[2022.03.16-19.37.18:858][110]PIE: Server logged in
+[2022.03.16-19.37.18:859][110]PIE: Play in editor total start time 0.075 seconds.
+[2022.03.16-19.37.24:748][461]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.37.24:748][461]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.37.24:749][461]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.03.16-19.37.24:749][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.37.24:758][461]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.16-19.37.24:823][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.37.24:845][461]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.37.24:845][461]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.37.24:846][461]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.37.24:852][461]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2022.03.16-19.37.24:921][462]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2022.03.16-19.37.28:532][670]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.16-19.37.28:536][670]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.16-19.37.28:537][670]PIE: New page: PIE session: Main (Mar 17, 2022, 1:37:28 AM)
+[2022.03.16-19.37.28:537][670]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.37.28:541][670]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004161s)
+[2022.03.16-19.37.28:542][670]LogAIModule: Creating AISystem for world Main
+[2022.03.16-19.37.28:542][670]LogPlayLevel: PIE: World Init took: (0.000999s)
+[2022.03.16-19.37.28:542][670]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.005304s)
+[2022.03.16-19.37.28:569][670]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2022.03.16-19.37.28:571][670]LogAudio: Display: Creating Audio Device:                 Id: 48, Scope: Unique, Realtime: True
+[2022.03.16-19.37.28:571][670]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.16-19.37.28:571][670]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.16-19.37.28:571][670]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.16-19.37.28:571][670]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.16-19.37.28:571][670]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.16-19.37.28:571][670]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.16-19.37.28:571][670]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.16-19.37.28:571][670]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.16-19.37.28:572][670]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.16-19.37.28:572][670]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.16-19.37.28:572][670]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.16-19.37.28:572][670]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.16-19.37.28:576][670]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.16-19.37.28:576][670]LogAudioMixer: Display: 1: FrontRight
+[2022.03.16-19.37.28:584][670]LogAudioMixer: Display: Using Audio Device Audio (THX Spatial Audio)
+[2022.03.16-19.37.28:584][670]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.16-19.37.28:584][670]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.16-19.37.28:584][670]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.16-19.37.28:584][670]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.16-19.37.28:584][670]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.16-19.37.28:584][670]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.16-19.37.28:586][670]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.16-19.37.28:586][670]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.16-19.37.28:586][670]LogInit: FAudioDevice initialized.
+[2022.03.16-19.37.28:586][670]LogAudio: Display: Audio Device (ID: 48) registered with world 'Main'.
+[2022.03.16-19.37.28:592][670]LogLoad: Game class is 'GameModeBase'
+[2022.03.16-19.37.28:594][670]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2022.03.16-22.37.28
+[2022.03.16-19.37.28:594][670]LogWorld: Bringing up level for play took: 0.001128
+[2022.03.16-19.37.28:595][670]LogOnline: OSS: Creating online subsystem instance for: :Context_52
+[2022.03.16-19.37.28:596][670]PIE: Server logged in
+[2022.03.16-19.37.28:597][670]PIE: Play in editor total start time 0.061 seconds.
+[2022.03.16-19.37.57:428][397]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.37.57:428][397]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2022.03.16-19.37.57:428][397]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2022.03.16-19.37.57:428][397]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.37.57:438][397]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.16-19.37.57:501][397]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.16-19.37.57:523][397]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.16-19.37.57:523][397]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.37.57:524][397]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.16-19.37.57:530][397]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2022.03.16-19.37.57:606][398]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2022.03.16-19.38.22:830][492]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2022.03.16-19.38.22:832][492]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto7.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.03.16-19.38.22:844][492]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Main_Auto720C18FED47AEABB53BC7D6B8346EC34A.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Autosaves/Game/Maps/Main_Auto7.umap'
+[2022.03.16-19.38.22:845][492]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.042
+[2022.03.16-19.38.22:845][492]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.042

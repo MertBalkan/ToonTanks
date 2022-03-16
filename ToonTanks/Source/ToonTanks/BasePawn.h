@@ -20,12 +20,6 @@ public:
 	virtual void Tick(float DeltaTime) override;
 	
 private:
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category="Deneme", meta=(AllowPrivateAccess="true"))
-	int32 VisibleAnywhereInt = 20;
-
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category="Deneme", meta=(AllowPrivateAccess="true"))
-	int32 EditAnywhereInt = 20;
-
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Base Pawn Components", meta=(AllowPrivateAccess="true"))
 	class UCapsuleComponent* CapsuleComponent;
 

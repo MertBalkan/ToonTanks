@@ -60,6 +60,7 @@ public: \
 
 #define ToonTanks_Source_ToonTanks_Tank_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__TankMoveSpeed() { return STRUCT_OFFSET(ATank, TankMoveSpeed); } \
+	FORCEINLINE static uint32 __PPO__TurnSpeed() { return STRUCT_OFFSET(ATank, TurnSpeed); } \
 	FORCEINLINE static uint32 __PPO__SpringArmComponent() { return STRUCT_OFFSET(ATank, SpringArmComponent); } \
 	FORCEINLINE static uint32 __PPO__CameraComponent() { return STRUCT_OFFSET(ATank, CameraComponent); }
 
