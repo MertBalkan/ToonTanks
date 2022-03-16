@@ -20,4 +20,6 @@ void ATank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 void ATank::Move(float Value)
 {
 	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Green, FString::Printf(TEXT("%f:"), Value));
+	const FVector DeltaLocation(Value * TankMoveSpeed, 0, 0);
+	AddActorLocalOffset(DeltaLocation);
 }
