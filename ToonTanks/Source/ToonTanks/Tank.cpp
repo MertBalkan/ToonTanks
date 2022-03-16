@@ -1,6 +1,7 @@
 #include "Tank.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "Kismet/GameplayStatics.h"
 
 ATank::ATank()
 {
@@ -21,5 +22,5 @@ void ATank::Move(float Value)
 {
 	GEngine->AddOnScreenDebugMessage(-1, 1, FColor::Green, FString::Printf(TEXT("%f:"), Value));
 	const FVector DeltaLocation(Value * TankMoveSpeed, 0, 0);
-	AddActorLocalOffset(DeltaLocation);
+	AddActorLocalOffset(DeltaLocation * UGameplayStatics::GetWorldDeltaSeconds(this));
 }

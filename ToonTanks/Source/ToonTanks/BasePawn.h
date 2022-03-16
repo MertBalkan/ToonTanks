@@ -13,27 +13,12 @@ class TOONTANKS_API ABasePawn : public APawn
 public:
 	ABasePawn();
 
-	UPROPERTY(VisibleInstanceOnly)
-	int32 VisibleInstanceOnlyInt = 11;
-
-	UPROPERTY(VisibleDefaultsOnly)
-	int32 VisibleDefaultsOnlyInt = 5;
-
-	UPROPERTY(EditDefaultsOnly)
-	int32 EditDefaultsOnlyInt = 9;
-
-	UPROPERTY(EditInstanceOnly, meta=(AllowPrivateAccess="true"))
-	int32 EditInstanceOnlyInt = 14;
-
-	UPROPERTY(Category="Deneme", VisibleAnywhere, BlueprintReadWrite)
-	float Health = 100.0f;
-
 protected:
 	virtual void BeginPlay() override;
 
 public:
 	virtual void Tick(float DeltaTime) override;
-
+	
 private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category="Deneme", meta=(AllowPrivateAccess="true"))
 	int32 VisibleAnywhereInt = 20;

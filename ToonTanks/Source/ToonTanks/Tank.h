@@ -17,9 +17,10 @@ public:
 	ATank();
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	UPROPERTY(Category="Movement", EditAnywhere, BlueprintReadWrite)
-	float TankMoveSpeed = 5.0f;
 private:
+	UPROPERTY(Category="Movement", EditAnywhere, BlueprintReadWrite, meta=(AllowPrivateAccess="true"))
+	float TankMoveSpeed = 250.0f;
+	
 	UPROPERTY(Category="Tank Components", BlueprintReadOnly, VisibleAnywhere, meta=(AllowPrivateAccess="true"))
 	class USpringArmComponent* SpringArmComponent;
 

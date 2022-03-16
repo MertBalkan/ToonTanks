@@ -63,11 +63,12 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 #endif
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATank_Statics::NewProp_TankMoveSpeed_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Movement" },
 		{ "ModuleRelativePath", "Tank.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATank_Statics::NewProp_TankMoveSpeed = { "TankMoveSpeed", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATank, TankMoveSpeed), METADATA_PARAMS(Z_Construct_UClass_ATank_Statics::NewProp_TankMoveSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATank_Statics::NewProp_TankMoveSpeed_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATank_Statics::NewProp_TankMoveSpeed = { "TankMoveSpeed", nullptr, (EPropertyFlags)0x0040000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATank, TankMoveSpeed), METADATA_PARAMS(Z_Construct_UClass_ATank_Statics::NewProp_TankMoveSpeed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATank_Statics::NewProp_TankMoveSpeed_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATank_Statics::NewProp_SpringArmComponent_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -118,7 +119,7 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATank, 565578170);
+	IMPLEMENT_CLASS(ATank, 1818783027);
 	template<> TOONTANKS_API UClass* StaticClass<ATank>()
 	{
 		return ATank::StaticClass();
