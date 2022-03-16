@@ -1,6 +1,7 @@
 #include "Tank.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "DrawDebugHelpers.h"
 #include "Kismet/GameplayStatics.h"
 
 ATank::ATank()
@@ -16,7 +17,34 @@ void ATank::BeginPlay()
 {
 	Super::BeginPlay();
 	PlayerControllerRef = Cast<APlayerController>(GetController());
+}
 
+void ATank::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+	if (PlayerControllerRef)
+	{
+		HitResultBool = PlayerControllerRef->GetHitResultUnderCursor
+		(
+			ECollisionChannel::ECC_Visibility,
+			false,
+			HitResult
+		);
+
+		DrawDebugSphere
+		(
+			this->GetWorld(),
+			HitResult.ImpactPoint + FVector(0, 0, 10),
+			10.0f,
+			30,
+			FColor::Red,
+			false,
+			-1,
+			0,
+			3
+		);
+	}
 }
 
 void ATank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)

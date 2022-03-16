@@ -12,9 +12,6 @@ class TOONTANKS_API ABasePawn : public APawn
 
 public:
 	ABasePawn();
-
-public:
-	virtual void Tick(float DeltaTime) override;
 	
 private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Base Pawn Components", meta=(AllowPrivateAccess="true"))

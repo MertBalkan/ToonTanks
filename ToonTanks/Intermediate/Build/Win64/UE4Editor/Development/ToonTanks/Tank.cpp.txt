@@ -11,6 +11,7 @@ F:\EpicOyunlar\UE_4.27\Engine\Source\Runtime\Engine\Classes\Camera/CameraCompone
 F:\EpicOyunlar\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
 F:\EpicOyunlar\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
 F:\EpicOyunlar\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
+F:\EpicOyunlar\UE_4.27\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
 F:\EpicOyunlar\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
 F:\EpicOyunlar\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
 F:\EpicOyunlar\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
