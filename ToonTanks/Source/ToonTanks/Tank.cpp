@@ -13,6 +13,13 @@ ATank::ATank()
 	CameraComponent->SetupAttachment(SpringArmComponent);
 }
 
+void ATank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
+{
+	Super::SetupPlayerInputComponent(PlayerInputComponent);
+	PlayerInputComponent->BindAxis("MoveForward", this, &ATank::Move);
+	PlayerInputComponent->BindAxis("Turn", this, &ATank::Turn);
+}
+
 void ATank::BeginPlay()
 {
 	Super::BeginPlay();
@@ -22,11 +29,11 @@ void ATank::BeginPlay()
 void ATank::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	
 	if (PlayerControllerRef)
 	{
-		HitResultBool = MyGetHitResultUnderCursor();
-
+		PlayerControllerRef->GetHitResultUnderCursor(ECollisionChannel::ECC_Visibility, false, HitResult);
+		
 		CursorPosition = HitResult.ImpactPoint;
 		DrawDebugSphere
 		(
@@ -43,22 +50,6 @@ void ATank::Tick(float DeltaTime)
 	}
 }
 
-void ATank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
-{
-	Super::SetupPlayerInputComponent(PlayerInputComponent);
-	PlayerInputComponent->BindAxis("MoveForward", this, &ATank::Move);
-	PlayerInputComponent->BindAxis("Turn", this, &ATank::Turn);
-}
-
-bool ATank::MyGetHitResultUnderCursor()
-{
-	return PlayerControllerRef->GetHitResultUnderCursor
-		(
-			ECollisionChannel::ECC_Visibility,
-			false,
-			HitResult
-		);
-}
 
 void ATank::Move(float Value)
 {
