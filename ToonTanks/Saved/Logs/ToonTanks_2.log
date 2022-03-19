@@ -2186,3 +2186,4 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.03.19-12.51.32:857][322]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
 [2022.03.19-12.51.32:975][322]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0107 seconds. Added 3825 classes and 930 folders.
 [2022.03.19-12.51.32:975][322]Display: HotReload took 16.0s.
+[2022.03.19-12.54.27:914][844]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
