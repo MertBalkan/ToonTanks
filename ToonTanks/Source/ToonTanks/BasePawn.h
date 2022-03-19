@@ -29,6 +29,6 @@ private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Base Pawn Components", meta=(AllowPrivateAccess="true"))
 	class USceneComponent* BulletSpawnPoint;
 
-	UPROPERTY(EditDefaultsOnly, Category="Combat")
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category="Combat", meta=(AllowPrivateAccess="true"))
 	TSubclassOf<class AProjectile> ProjectileClass;
 };
