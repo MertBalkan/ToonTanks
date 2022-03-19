@@ -1,6 +1,7 @@
 #include "BasePawn.h"
 
 #include "DrawDebugHelpers.h"
+#include "Projectile.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "Components/SceneComponent.h"
@@ -32,17 +33,23 @@ void ABasePawn::RotateTurret(const FVector LookAtTarget) const
 
 void ABasePawn::Fire()
 {
-	const FVector ProjectileSpawnPoint = BulletSpawnPoint->GetComponentLocation();
-	DrawDebugSphere
-	(
-		GetWorld(),
-		ProjectileSpawnPoint,
-		25.0f,
-		12,
-		FColor::Green,
-		false,
-		3.0f,
-		0,
-		2
-	);
+	const FVector ProjectileSpawnPointLocation = BulletSpawnPoint->GetComponentLocation();
+	const FRotator ProjectileSpawnPointRotation = BulletSpawnPoint->GetComponentRotation();
+
+	GetWorld()->SpawnActor<AProjectile>(ProjectileClass, ProjectileSpawnPointLocation, ProjectileSpawnPointRotation);
+
+	
+	
+	// DrawDebugSphere
+	// (
+	// 	GetWorld(),
+	// 	ProjectileSpawnPointLocation,
+	// 	25.0f,
+	// 	12,
+	// 	FColor::Green,
+	// 	false,
+	// 	3.0f,
+	// 	0,
+	// 	2
+	// );
 }
