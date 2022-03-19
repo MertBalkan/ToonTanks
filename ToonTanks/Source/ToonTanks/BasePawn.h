@@ -13,7 +13,8 @@ class TOONTANKS_API ABasePawn : public APawn
 public:
 	ABasePawn();
 protected:
-	FVector RotateTurret(FVector LookAtTarget) const;
+	void RotateTurret(FVector LookAtTarget) const;
+	
 	
 private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Base Pawn Components", meta=(AllowPrivateAccess="true"))
