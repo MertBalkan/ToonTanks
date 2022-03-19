@@ -5,3 +5,4 @@ F:\EpicOyunlar\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComp
 F:\EpicOyunlar\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
 F:\EpicOyunlar\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
 D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Inc\ToonTanks\BasePawn.generated.h
+F:\EpicOyunlar\UE_4.27\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h

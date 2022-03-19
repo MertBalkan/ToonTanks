@@ -14,7 +14,7 @@ public:
 	ABasePawn();
 protected:
 	void RotateTurret(FVector LookAtTarget) const;
-	
+	void Fire();
 	
 private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Base Pawn Components", meta=(AllowPrivateAccess="true"))
