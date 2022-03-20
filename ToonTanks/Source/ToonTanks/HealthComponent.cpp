@@ -11,12 +11,17 @@ void UHealthComponent::BeginPlay()
 	Health = MaxHealth;
 
 	GetOwner()->OnTakeAnyDamage.AddDynamic(this, &UHealthComponent::DamageTaken); //bounding callback function to the delegate
-	
+
 }
 
 void UHealthComponent::DamageTaken(AActor* DamagedActor, float Damage, const UDamageType* DamageType,
 	AController* Instigator, AActor* DamageCauser)
 {
+	if(Damage <= 0.0f) return;
+
+	Health-=Damage;
+	GEngine->AddOnScreenDebugMessage(-1, 3, FColor::Red, FString::Printf(TEXT("%s's Health:%f"), *this->GetOwner()->GetName(), Health));
+
 	
 }
 

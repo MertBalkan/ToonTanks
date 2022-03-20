@@ -36,8 +36,8 @@ void ABasePawn::Fire()
 	const FVector ProjectileSpawnPointLocation = BulletSpawnPoint->GetComponentLocation();
 	const FRotator ProjectileSpawnPointRotation = BulletSpawnPoint->GetComponentRotation();
 
-	GetWorld()->SpawnActor<AProjectile>(ProjectileClass, ProjectileSpawnPointLocation, ProjectileSpawnPointRotation);
-
+	auto Projectile = GetWorld()->SpawnActor<AProjectile>(ProjectileClass, ProjectileSpawnPointLocation, ProjectileSpawnPointRotation);
+	Projectile->SetOwner(this);
 	
 	
 	// DrawDebugSphere

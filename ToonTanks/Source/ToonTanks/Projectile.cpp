@@ -1,5 +1,7 @@
 #include "Projectile.h"
 
+#include "Kismet/GameplayStatics.h"
+
 AProjectile::AProjectile()
 {
 	PrimaryActorTick.bCanEverTick = true;
@@ -28,13 +30,16 @@ void AProjectile::Tick(float DeltaTime)
 void AProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp,
 	FVector NormalImpulse, const FHitResult& Hit)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Green,
-		FString::Printf(TEXT("HitComp:%s OtherActor:%s OtherComp:%s"),
-			*HitComp->GetName(), *OtherActor->GetName(), *OtherComp->GetName()));
+	auto MyOwner = GetOwner();
+	if(MyOwner == nullptr) return;
 
-	if(OtherActor)
+	auto MyOwnerInstigator = MyOwner->GetInstigatorController();
+	auto DamageTypeClass = UDamageType::StaticClass();
+
+	if(OtherActor && OtherActor != this && OtherActor != MyOwner)
 	{
-		AActor::K2_DestroyActor();
+		UGameplayStatics::ApplyDamage(OtherActor, Damage, MyOwnerInstigator, this, DamageTypeClass);
+		Destroy();
 	}
 }
 

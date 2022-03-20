@@ -72,7 +72,8 @@ public: \
 
 #define ToonTanks_Source_ToonTanks_Projectile_h_11_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__SM_Projectile() { return STRUCT_OFFSET(AProjectile, SM_Projectile); } \
-	FORCEINLINE static uint32 __PPO__ProjectileMovementComponent() { return STRUCT_OFFSET(AProjectile, ProjectileMovementComponent); }
+	FORCEINLINE static uint32 __PPO__ProjectileMovementComponent() { return STRUCT_OFFSET(AProjectile, ProjectileMovementComponent); } \
+	FORCEINLINE static uint32 __PPO__Damage() { return STRUCT_OFFSET(AProjectile, Damage); }
 
 
 #define ToonTanks_Source_ToonTanks_Projectile_h_8_PROLOG

@@ -8,14 +8,25 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
+class UDamageType;
+class AController;
 #ifdef TOONTANKS_HealthComponent_generated_h
 #error "HealthComponent.generated.h already included, missing '#pragma once' in HealthComponent.h"
 #endif
 #define TOONTANKS_HealthComponent_generated_h
 
 #define ToonTanks_Source_ToonTanks_HealthComponent_h_10_SPARSE_DATA
-#define ToonTanks_Source_ToonTanks_HealthComponent_h_10_RPC_WRAPPERS
-#define ToonTanks_Source_ToonTanks_HealthComponent_h_10_RPC_WRAPPERS_NO_PURE_DECLS
+#define ToonTanks_Source_ToonTanks_HealthComponent_h_10_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execDamageTaken);
+
+
+#define ToonTanks_Source_ToonTanks_HealthComponent_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execDamageTaken);
+
+
 #define ToonTanks_Source_ToonTanks_HealthComponent_h_10_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUHealthComponent(); \
