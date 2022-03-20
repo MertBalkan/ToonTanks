@@ -27,4 +27,8 @@ private:
 	UPROPERTY(Category="Projectile Components", VisibleAnywhere, meta=(AllowPrivateAccess="true"))
 	UProjectileMovementComponent* ProjectileMovementComponent;
 
+	UFUNCTION()
+	void OnHit(UPrimitiveComponent* HitComp,
+		AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
+
 };
