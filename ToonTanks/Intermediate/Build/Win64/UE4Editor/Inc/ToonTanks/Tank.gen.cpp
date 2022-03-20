@@ -64,7 +64,6 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATank_Statics::Class_MetaDataParams[] = {
-		{ "Comment", "/**\n * \n */" },
 		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "Tank.h" },
 		{ "ModuleRelativePath", "Tank.h" },
@@ -146,7 +145,7 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATank, 3284884099);
+	IMPLEMENT_CLASS(ATank, 2727772944);
 	template<> TOONTANKS_API UClass* StaticClass<ATank>()
 	{
 		return ATank::StaticClass();

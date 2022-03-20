@@ -31,5 +31,10 @@ void AProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimi
 	GEngine->AddOnScreenDebugMessage(-1, 2, FColor::Green,
 		FString::Printf(TEXT("HitComp:%s OtherActor:%s OtherComp:%s"),
 			*HitComp->GetName(), *OtherActor->GetName(), *OtherComp->GetName()));
+
+	if(OtherActor)
+	{
+		AActor::K2_DestroyActor();
+	}
 }
 

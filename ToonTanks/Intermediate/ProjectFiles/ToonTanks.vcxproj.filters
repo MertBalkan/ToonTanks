@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ToonTanks.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{ED07CD1B-E4C0-4FC1-83E6-74ECC5C82ECD}</UniqueIdentifier>
+      <UniqueIdentifier>{7ACD7F09-B519-4D30-B419-D35DC868FD57}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ToonTanks.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5FFE4833-221F-48A4-90AC-9C0FC40CA7FE}</UniqueIdentifier>
+      <UniqueIdentifier>{D66AD77B-5B40-48C1-82F6-FDB7DF88C172}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,12 +27,18 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ToonTanks">
-      <UniqueIdentifier>{4979600E-6045-4687-8692-0AA83BA21D43}</UniqueIdentifier>
+      <UniqueIdentifier>{D2E65FC9-A339-4F64-910E-036656A42CE5}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ToonTanks\BasePawn.cpp">
       <Filter>Source\ToonTanks</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ToonTanks\BasePawn.h">
+      <Filter>Source\ToonTanks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ToonTanks\HealthComponent.cpp">
+      <Filter>Source\ToonTanks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTanks\HealthComponent.h">
       <Filter>Source\ToonTanks</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\ToonTanks\Projectile.cpp">
