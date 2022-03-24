@@ -26,16 +26,16 @@ void ATank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 void ATank::BeginPlay()
 {
 	Super::BeginPlay();
-	PlayerControllerRef = Cast<APlayerController>(GetController());
+	TankPlayerController = Cast<APlayerController>(GetController());
 }
 
 void ATank::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	
-	if (PlayerControllerRef)
+	if (TankPlayerController)
 	{
-		PlayerControllerRef->GetHitResultUnderCursor(ECollisionChannel::ECC_Visibility, false, HitResult);
+		TankPlayerController->GetHitResultUnderCursor(ECollisionChannel::ECC_Visibility, false, HitResult);
 		
 		CursorPosition = HitResult.ImpactPoint;
 
@@ -54,8 +54,13 @@ void ATank::Tick(float DeltaTime)
 			3
 		);
 	}
+}
 
-	
+void ATank::HandleDestruction()
+{
+	Super::HandleDestruction();
+	SetActorHiddenInGame(true);
+	SetActorTickEnabled(false); // disables tick for tank
 }
 
 

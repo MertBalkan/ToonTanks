@@ -16,18 +16,18 @@ class AController;
 #endif
 #define TOONTANKS_HealthComponent_generated_h
 
-#define ToonTanks_Source_ToonTanks_HealthComponent_h_10_SPARSE_DATA
-#define ToonTanks_Source_ToonTanks_HealthComponent_h_10_RPC_WRAPPERS \
+#define ToonTanks_Source_ToonTanks_HealthComponent_h_11_SPARSE_DATA
+#define ToonTanks_Source_ToonTanks_HealthComponent_h_11_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execDamageTaken);
 
 
-#define ToonTanks_Source_ToonTanks_HealthComponent_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+#define ToonTanks_Source_ToonTanks_HealthComponent_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execDamageTaken);
 
 
-#define ToonTanks_Source_ToonTanks_HealthComponent_h_10_INCLASS_NO_PURE_DECLS \
+#define ToonTanks_Source_ToonTanks_HealthComponent_h_11_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUHealthComponent(); \
 	friend struct Z_Construct_UClass_UHealthComponent_Statics; \
@@ -36,7 +36,7 @@ public: \
 	DECLARE_SERIALIZER(UHealthComponent)
 
 
-#define ToonTanks_Source_ToonTanks_HealthComponent_h_10_INCLASS \
+#define ToonTanks_Source_ToonTanks_HealthComponent_h_11_INCLASS \
 private: \
 	static void StaticRegisterNativesUHealthComponent(); \
 	friend struct Z_Construct_UClass_UHealthComponent_Statics; \
@@ -45,7 +45,7 @@ public: \
 	DECLARE_SERIALIZER(UHealthComponent)
 
 
-#define ToonTanks_Source_ToonTanks_HealthComponent_h_10_STANDARD_CONSTRUCTORS \
+#define ToonTanks_Source_ToonTanks_HealthComponent_h_11_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UHealthComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UHealthComponent) \
@@ -58,7 +58,7 @@ private: \
 public:
 
 
-#define ToonTanks_Source_ToonTanks_HealthComponent_h_10_ENHANCED_CONSTRUCTORS \
+#define ToonTanks_Source_ToonTanks_HealthComponent_h_11_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UHealthComponent(UHealthComponent&&); \
@@ -69,31 +69,31 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UHealthComponent)
 
 
-#define ToonTanks_Source_ToonTanks_HealthComponent_h_10_PRIVATE_PROPERTY_OFFSET \
+#define ToonTanks_Source_ToonTanks_HealthComponent_h_11_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__MaxHealth() { return STRUCT_OFFSET(UHealthComponent, MaxHealth); }
 
 
-#define ToonTanks_Source_ToonTanks_HealthComponent_h_7_PROLOG
-#define ToonTanks_Source_ToonTanks_HealthComponent_h_10_GENERATED_BODY_LEGACY \
+#define ToonTanks_Source_ToonTanks_HealthComponent_h_8_PROLOG
+#define ToonTanks_Source_ToonTanks_HealthComponent_h_11_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ToonTanks_Source_ToonTanks_HealthComponent_h_10_PRIVATE_PROPERTY_OFFSET \
-	ToonTanks_Source_ToonTanks_HealthComponent_h_10_SPARSE_DATA \
-	ToonTanks_Source_ToonTanks_HealthComponent_h_10_RPC_WRAPPERS \
-	ToonTanks_Source_ToonTanks_HealthComponent_h_10_INCLASS \
-	ToonTanks_Source_ToonTanks_HealthComponent_h_10_STANDARD_CONSTRUCTORS \
+	ToonTanks_Source_ToonTanks_HealthComponent_h_11_PRIVATE_PROPERTY_OFFSET \
+	ToonTanks_Source_ToonTanks_HealthComponent_h_11_SPARSE_DATA \
+	ToonTanks_Source_ToonTanks_HealthComponent_h_11_RPC_WRAPPERS \
+	ToonTanks_Source_ToonTanks_HealthComponent_h_11_INCLASS \
+	ToonTanks_Source_ToonTanks_HealthComponent_h_11_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ToonTanks_Source_ToonTanks_HealthComponent_h_10_GENERATED_BODY \
+#define ToonTanks_Source_ToonTanks_HealthComponent_h_11_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ToonTanks_Source_ToonTanks_HealthComponent_h_10_PRIVATE_PROPERTY_OFFSET \
-	ToonTanks_Source_ToonTanks_HealthComponent_h_10_SPARSE_DATA \
-	ToonTanks_Source_ToonTanks_HealthComponent_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
-	ToonTanks_Source_ToonTanks_HealthComponent_h_10_INCLASS_NO_PURE_DECLS \
-	ToonTanks_Source_ToonTanks_HealthComponent_h_10_ENHANCED_CONSTRUCTORS \
+	ToonTanks_Source_ToonTanks_HealthComponent_h_11_PRIVATE_PROPERTY_OFFSET \
+	ToonTanks_Source_ToonTanks_HealthComponent_h_11_SPARSE_DATA \
+	ToonTanks_Source_ToonTanks_HealthComponent_h_11_RPC_WRAPPERS_NO_PURE_DECLS \
+	ToonTanks_Source_ToonTanks_HealthComponent_h_11_INCLASS_NO_PURE_DECLS \
+	ToonTanks_Source_ToonTanks_HealthComponent_h_11_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

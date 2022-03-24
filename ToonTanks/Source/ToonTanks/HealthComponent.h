@@ -1,6 +1,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "ToonTanksGameMode.h"
 #include "Components/ActorComponent.h"
 #include "HealthComponent.generated.h"
 
@@ -23,6 +24,8 @@ private:
 	UFUNCTION()
 	void DamageTaken(AActor* DamagedActor, float Damage, const UDamageType* DamageType, AController* Instigator, AActor* DamageCauser);
 
+	AToonTanksGameMode* ToonTanksGameMode;
+	
 public:	
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 };
