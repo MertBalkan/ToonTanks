@@ -1,0 +1,7 @@
+D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\Definitions.ToonTanks.h
+D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Source\ToonTanks\ToonTanksGameMode.h
+F:\EpicOyunlar\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+F:\EpicOyunlar\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+F:\EpicOyunlar\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+F:\EpicOyunlar\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Inc\ToonTanks\ToonTanksGameMode.generated.h
