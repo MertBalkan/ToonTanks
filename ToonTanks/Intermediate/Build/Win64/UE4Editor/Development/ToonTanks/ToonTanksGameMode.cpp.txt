@@ -13,6 +13,8 @@ F:\EpicOyunlar\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Shap
 F:\EpicOyunlar\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
 D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Inc\ToonTanks\BasePawn.generated.h
 D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Inc\ToonTanks\Tank.generated.h
+D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Source\ToonTanks\ToonTanksPlayerController.h
+D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Inc\ToonTanks\ToonTanksPlayerController.generated.h
 D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Source\ToonTanks\Tower.h
 D:\GitRepos\UE4Repos\ToonTanks\ToonTanks\Intermediate\Build\Win64\UE4Editor\Inc\ToonTanks\Tower.generated.h
 F:\EpicOyunlar\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h

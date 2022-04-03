@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ToonTanks.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{CED73CDE-EAEB-4661-B3E2-E931740AB6F8}</UniqueIdentifier>
+      <UniqueIdentifier>{E70BC61F-A12C-44E5-B7F6-07010C25564C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ToonTanks.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{C32FCDCF-374B-4E35-87AF-3A7DC1168643}</UniqueIdentifier>
+      <UniqueIdentifier>{C6363B80-21F8-4A57-BF17-8D59AB1B4255}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ToonTanks">
-      <UniqueIdentifier>{22F38CB5-4085-40FC-AEB6-291D4729820D}</UniqueIdentifier>
+      <UniqueIdentifier>{BC9B6D98-51D6-4865-A7CA-60E9423BCE2F}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ToonTanks\BasePawn.cpp">
       <Filter>Source\ToonTanks</Filter>
@@ -66,6 +66,12 @@
       <Filter>Source\ToonTanks</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ToonTanks\ToonTanksGameMode.h">
+      <Filter>Source\ToonTanks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ToonTanks\ToonTanksPlayerController.cpp">
+      <Filter>Source\ToonTanks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ToonTanks\ToonTanksPlayerController.h">
       <Filter>Source\ToonTanks</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\ToonTanks\Tower.cpp">
