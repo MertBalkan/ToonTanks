@@ -16,6 +16,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define ToonTanks_Source_ToonTanks_ToonTanksGameMode_h_10_SPARSE_DATA
 #define ToonTanks_Source_ToonTanks_ToonTanksGameMode_h_10_RPC_WRAPPERS
 #define ToonTanks_Source_ToonTanks_ToonTanksGameMode_h_10_RPC_WRAPPERS_NO_PURE_DECLS
+#define ToonTanks_Source_ToonTanks_ToonTanksGameMode_h_10_EVENT_PARMS
+#define ToonTanks_Source_ToonTanks_ToonTanksGameMode_h_10_CALLBACK_WRAPPERS
 #define ToonTanks_Source_ToonTanks_ToonTanksGameMode_h_10_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAToonTanksGameMode(); \
@@ -61,13 +63,17 @@ public: \
 
 
 #define ToonTanks_Source_ToonTanks_ToonTanksGameMode_h_10_PRIVATE_PROPERTY_OFFSET
-#define ToonTanks_Source_ToonTanks_ToonTanksGameMode_h_7_PROLOG
+#define ToonTanks_Source_ToonTanks_ToonTanksGameMode_h_7_PROLOG \
+	ToonTanks_Source_ToonTanks_ToonTanksGameMode_h_10_EVENT_PARMS
+
+
 #define ToonTanks_Source_ToonTanks_ToonTanksGameMode_h_10_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	ToonTanks_Source_ToonTanks_ToonTanksGameMode_h_10_PRIVATE_PROPERTY_OFFSET \
 	ToonTanks_Source_ToonTanks_ToonTanksGameMode_h_10_SPARSE_DATA \
 	ToonTanks_Source_ToonTanks_ToonTanksGameMode_h_10_RPC_WRAPPERS \
+	ToonTanks_Source_ToonTanks_ToonTanksGameMode_h_10_CALLBACK_WRAPPERS \
 	ToonTanks_Source_ToonTanks_ToonTanksGameMode_h_10_INCLASS \
 	ToonTanks_Source_ToonTanks_ToonTanksGameMode_h_10_STANDARD_CONSTRUCTORS \
 public: \
@@ -80,6 +86,7 @@ public: \
 	ToonTanks_Source_ToonTanks_ToonTanksGameMode_h_10_PRIVATE_PROPERTY_OFFSET \
 	ToonTanks_Source_ToonTanks_ToonTanksGameMode_h_10_SPARSE_DATA \
 	ToonTanks_Source_ToonTanks_ToonTanksGameMode_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+	ToonTanks_Source_ToonTanks_ToonTanksGameMode_h_10_CALLBACK_WRAPPERS \
 	ToonTanks_Source_ToonTanks_ToonTanksGameMode_h_10_INCLASS_NO_PURE_DECLS \
 	ToonTanks_Source_ToonTanks_ToonTanksGameMode_h_10_ENHANCED_CONSTRUCTORS \
 private: \

@@ -23,7 +23,10 @@ void ATower::Tick(float DeltaTime)
 	if(InFireRange())
 	{
 		// If in range, rotate turret toward Tank
-		RotateTurret(Tank->GetActorLocation());
+		if(Tank)
+		{
+			RotateTurret(Tank->GetActorLocation());
+		}
 	}
 }
 
