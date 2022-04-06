@@ -38,4 +38,7 @@ private:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category="Combat", meta=(AllowPrivateAccess="true"))
 	TSubclassOf<class AProjectile> ProjectileClass;
 
+	UPROPERTY(EditAnywhere, Category="Base Pawn Sounds")
+	USoundBase* DeathSound;
+
 };

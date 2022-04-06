@@ -24,6 +24,11 @@ void AProjectile::BeginPlay()
 	Super::BeginPlay();
 
 	SM_Projectile->OnComponentHit.AddDynamic(this, &AProjectile::OnHit);
+
+	if(LaunchSound)
+	{
+		UGameplayStatics::PlaySoundAtLocation(this, LaunchSound, GetActorLocation());
+	}
 	
 }
 void AProjectile::Tick(float DeltaTime)
@@ -51,6 +56,11 @@ void AProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimi
 		if(HitParticle)
 		{
 			UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), HitParticle, GetActorLocation(), GetActorRotation());
+		}
+
+		if(HitSound)
+		{
+			UGameplayStatics::SpawnSoundAtLocation(this, HitSound, GetActorLocation());
 		}
 	}
 	Destroy();

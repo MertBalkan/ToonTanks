@@ -61,6 +61,7 @@ void ATank::HandleDestruction()
 	Super::HandleDestruction();
 	SetActorHiddenInGame(true);
 	SetActorTickEnabled(false); // disables tick for tank
+
 }
 
 

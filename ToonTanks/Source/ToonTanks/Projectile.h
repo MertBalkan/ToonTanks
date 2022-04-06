@@ -40,4 +40,9 @@ private:
 	UPROPERTY(Category="Projectile Components", BlueprintReadOnly, VisibleAnywhere, meta=(AllowPrivateAccess="true"))
 	UParticleSystemComponent* TrailsParticles;
 
+	UPROPERTY(EditAnywhere, Category="Projectile Sounds")
+	USoundBase* LaunchSound;
+	
+	UPROPERTY(EditAnywhere, Category="Projectile Sounds")
+	USoundBase* HitSound;
 };
