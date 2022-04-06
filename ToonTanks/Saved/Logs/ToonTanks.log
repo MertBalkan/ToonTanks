@@ -2664,3 +2664,54 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.04.06-21.10.53:879][863]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
 [2022.04.06-21.10.54:011][863]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0101 seconds. Added 3829 classes and 930 folders.
 [2022.04.06-21.10.54:011][863]Display: HotReload took  8.2s.
+[2022.04.06-21.27.35:727][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.06-21.27.35:823][901]LogUObjectHash: Compacting FUObjectHashTables data took   5.71ms
+[2022.04.06-21.27.35:838][901]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/MainB217B24442F10063AA2EDFAA01AC59E0.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main.umap'
+[2022.04.06-21.27.35:853][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2022.04.06-21.27.35:864][901]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Main_BuiltData2726B2C7436756C6A00CCBA4F2FB9B14.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2022.04.06-21.27.35:878][901]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.06-21.27.35:878][901]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2022.04.06-21.27.35:878][901]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2022.04.06-21.27.39:808][956]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.06-21.27.39:867][956]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2022.04.06-21.27.39:878][956]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/MainB1C9B1004794B9EC1CB39095D9485EC7.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main.umap'
+[2022.04.06-21.27.39:888][956]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2022.04.06-21.27.39:900][956]LogSavePackage: Moving 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Saved/Main_BuiltDataB140450C49A0C395966200B54E7EB41A.tmp' to 'D:/GitRepos/UE4Repos/ToonTanks/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2022.04.06-21.27.39:911][956]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.06-21.27.39:911][956]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2022.04.06-21.27.39:911][956]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2022.04.06-21.27.41:257][994]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.04.06-21.27.41:430][994]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.04.06-21.27.41:430][994]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.06-21.27.41:852][994]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.04.06-21.27.41:853][994]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.04.06-21.27.41:853][994]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.06-21.27.41:937][994]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.04.06-21.27.41:937][994]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.04.06-21.27.41:937][994]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.06-21.27.42:109][994]LogSlate: Window 'ToonTanks - Unreal Editor' being destroyed
+[2022.04.06-21.27.42:433][994]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2022.04.06-21.27.43:184][995]Cmd: QUIT_EDITOR
+[2022.04.06-21.27.43:231][995]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.04.06-21.27.43:443][995]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.04.06-21.27.44:870][995]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.04.06-21.27.44:870][995]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.04.06-21.27.44:870][995]LogAudio: Display: Audio Device unregistered from world 'Main'.
+[2022.04.06-21.27.44:871][995]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.06-21.27.44:874][995]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.06-21.27.44:917][995]LogAudio: Display: Audio Device Manager Shutdown
+[2022.04.06-21.27.44:935][995]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.04.06-21.27.45:035][995]LogExit: Preparing to exit.
+[2022.04.06-21.27.46:016][995]LogUObjectHash: Compacting FUObjectHashTables data took   7.08ms
+[2022.04.06-21.27.51:594][995]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.04.06-21.27.51:599][995]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2022.04.06-21.27.51:604][995]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2022.04.06-21.27.51:608][995]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.04.06-21.27.51:614][995]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.04.06-21.27.51:620][995]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.04.06-21.27.51:625][995]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.04.06-21.27.51:629][995]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.04.06-21.27.54:473][995]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.04.06-21.27.58:173][995]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2022.04.06-21.27.58:475][995]LogExit: Editor shut down
+[2022.04.06-21.27.58:481][995]LogExit: Transaction tracking system shut down
