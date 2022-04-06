@@ -37,4 +37,7 @@ private:
 	UPROPERTY(EditAnywhere, Category="Projectile Components")
 	UParticleSystem* HitParticle;
 
+	UPROPERTY(Category="Projectile Components", BlueprintReadOnly, VisibleAnywhere, meta=(AllowPrivateAccess="true"))
+	UParticleSystemComponent* TrailsParticles;
+
 };
