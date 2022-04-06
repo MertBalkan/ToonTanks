@@ -34,4 +34,7 @@ private:
 	UPROPERTY(EditAnywhere)
 	float Damage = 50.0f;
 
+	UPROPERTY(EditAnywhere, Category="Projectile Components")
+	UParticleSystem* HitParticle;
+
 };
