@@ -77,7 +77,8 @@ public: \
 	FORCEINLINE static uint32 __PPO__HitParticle() { return STRUCT_OFFSET(AProjectile, HitParticle); } \
 	FORCEINLINE static uint32 __PPO__TrailsParticles() { return STRUCT_OFFSET(AProjectile, TrailsParticles); } \
 	FORCEINLINE static uint32 __PPO__LaunchSound() { return STRUCT_OFFSET(AProjectile, LaunchSound); } \
-	FORCEINLINE static uint32 __PPO__HitSound() { return STRUCT_OFFSET(AProjectile, HitSound); }
+	FORCEINLINE static uint32 __PPO__HitSound() { return STRUCT_OFFSET(AProjectile, HitSound); } \
+	FORCEINLINE static uint32 __PPO__HitCameraShakeClass() { return STRUCT_OFFSET(AProjectile, HitCameraShakeClass); }
 
 
 #define ToonTanks_Source_ToonTanks_Projectile_h_8_PROLOG

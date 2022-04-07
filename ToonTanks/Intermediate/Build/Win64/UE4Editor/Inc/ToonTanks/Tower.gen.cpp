@@ -88,7 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeTower() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATower, 2886139572);
+	IMPLEMENT_CLASS(ATower, 3781932822);
 	template<> TOONTANKS_API UClass* StaticClass<ATower>()
 	{
 		return ATower::StaticClass();

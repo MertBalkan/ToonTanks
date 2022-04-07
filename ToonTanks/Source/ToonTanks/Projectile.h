@@ -45,4 +45,7 @@ private:
 	
 	UPROPERTY(EditAnywhere, Category="Projectile Sounds")
 	USoundBase* HitSound;
+
+	UPROPERTY(EditAnywhere, Category="Projectile Components")
+	TSubclassOf<UCameraShakeBase> HitCameraShakeClass;
 };

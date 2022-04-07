@@ -41,4 +41,7 @@ private:
 	UPROPERTY(EditAnywhere, Category="Base Pawn Sounds")
 	USoundBase* DeathSound;
 
+	UPROPERTY(EditAnywhere, Category="Base Pawn Components")
+	TSubclassOf<UCameraShakeBase> DeathCameraShakeClass;
+
 };

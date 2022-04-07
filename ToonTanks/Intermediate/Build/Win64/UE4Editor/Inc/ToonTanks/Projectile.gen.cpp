@@ -26,6 +26,8 @@ void EmptyLinkFunctionForGeneratedCodeProjectile() {}
 	ENGINE_API UClass* Z_Construct_UClass_UParticleSystem_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UParticleSystemComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	ENGINE_API UClass* Z_Construct_UClass_UCameraShakeBase_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(AProjectile::execOnHit)
 	{
@@ -158,6 +160,10 @@ void EmptyLinkFunctionForGeneratedCodeProjectile() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HitSound_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HitSound;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HitCameraShakeClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_HitCameraShakeClass;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -230,6 +236,13 @@ void EmptyLinkFunctionForGeneratedCodeProjectile() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AProjectile_Statics::NewProp_HitSound = { "HitSound", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProjectile, HitSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AProjectile_Statics::NewProp_HitSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProjectile_Statics::NewProp_HitSound_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AProjectile_Statics::NewProp_HitCameraShakeClass_MetaData[] = {
+		{ "Category", "Projectile Components" },
+		{ "ModuleRelativePath", "Projectile.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AProjectile_Statics::NewProp_HitCameraShakeClass = { "HitCameraShakeClass", nullptr, (EPropertyFlags)0x0044000000000001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AProjectile, HitCameraShakeClass), Z_Construct_UClass_UCameraShakeBase_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AProjectile_Statics::NewProp_HitCameraShakeClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AProjectile_Statics::NewProp_HitCameraShakeClass_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AProjectile_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectile_Statics::NewProp_SM_Projectile,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectile_Statics::NewProp_ProjectileMovementComponent,
@@ -238,6 +251,7 @@ void EmptyLinkFunctionForGeneratedCodeProjectile() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectile_Statics::NewProp_TrailsParticles,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectile_Statics::NewProp_LaunchSound,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectile_Statics::NewProp_HitSound,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AProjectile_Statics::NewProp_HitCameraShakeClass,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AProjectile_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AProjectile>::IsAbstract,
@@ -266,7 +280,7 @@ void EmptyLinkFunctionForGeneratedCodeProjectile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AProjectile, 3191920386);
+	IMPLEMENT_CLASS(AProjectile, 1458648137);
 	template<> TOONTANKS_API UClass* StaticClass<AProjectile>()
 	{
 		return AProjectile::StaticClass();

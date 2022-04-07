@@ -145,7 +145,7 @@ void EmptyLinkFunctionForGeneratedCodeTank() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATank, 2637500583);
+	IMPLEMENT_CLASS(ATank, 271033278);
 	template<> TOONTANKS_API UClass* StaticClass<ATank>()
 	{
 		return ATank::StaticClass();
