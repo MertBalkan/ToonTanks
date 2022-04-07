@@ -38,12 +38,14 @@ void ATower::HandleDestruction()
 
 void ATower::CheckFireCondition()
 {
-	if(InFireRange())
+	if(Tank == nullptr) return;
+	
+	if(InFireRange() && Tank->bAlive)
 	{
 		Fire();
 	}
 }
-
+ 
 bool ATower::InFireRange() const
 {
 	float Distance = 0;
